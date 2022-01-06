@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img id = "resume-photo" src="img/PicturesOfLogan/Logan_Avalon.jpg" alt="Photo of Logan"/>
     </div>
 
     <div style="clear:both"></div>
@@ -52,30 +52,38 @@
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Programming</h3>
+        <SkillRate name="C++" :rate="5" />
+        <SkillRate name="C#" :rate="5" />
+        <SkillRate name="Java" :rate="5" />
+        <SkillRate name="Python" :rate="4" />
+        <SkillRate name="GLSL" :rate="3" />
+        <SkillRate name="HLSL" :rate="3" />
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Engines</h3>
+        <SkillRate name="Unity" :rate="5" />
+        <SkillRate name="Java Processing" :rate="4" />
+        <SkillRate name="Unreal Engine 4" :rate="3" />
+        <SkillRate name="Game Maker" :rate="3" />
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools</h3>
+        <SkillRate name="Git (CL)" :rate="5" />
+        <SkillRate name="Trello/Codecks" :rate="4" />
+        <SkillRate name="Open GL" :rate="4" />
+        <SkillRate name="Blender" :rate="2" />
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Georgia Institute of Technology (Fall 2019-Present)</h3>
+      <h4>Pursuing B.S. in Computer Science (Threads: Media and Modeling/Simulation) with a minor in Robotics. 
+      May 2023 Graduation (4.0 current GPA).
+      </h4>
 
       <h2>Languages</h2>
 
@@ -158,19 +166,20 @@ h4 {
   padding-bottom: 10px;
 }
 
-.photo img {
-  height: 300px;
-  width: 300px;
-}
-
 .tech-stack {
   font-style: italic;
 }
 
 .photo {
-  margin-top: 50px;
+  margin-top: 0px;
   text-align: center;
 }
+
+#resume-photo {
+  border-radius: 50%;
+  width: 350px;
+}
+
 
 @media only screen and (min-width: 620px){
   .paragraph {
