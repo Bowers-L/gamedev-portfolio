@@ -1,82 +1,33 @@
 <template>
   <div>
+    
     <h1>Resume</h1>
-    <div class="paragraph">
-      You can download a pdf version of my resume below.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/LoganBowersResume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <div style="clear:both"></div>
-      </div>
+    <div style="margin-top:20px; margin-bottom:20px;">
+      <a class="download-link" href="d/LoganBowersResume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Click here to download my full resume as a PDF</a>
+      <div style="clear:both"></div>
     </div>
 
-    <div class="full-content">
+    <div class="row">
 
       <div class = "column">
         <div style="clear:both"></div>
 
   
-          <h2>Summary</h2>
+        <h2>Summary</h2> 
+        <h4><b>Logan Bowers</b></h4>
+        <i>Game developer with a flexible skillset and a passion for solving complex problems.</i>
+        <ul>
+        <li>loganmbowers@gmail.com</li>
+        <li>(404) 384-1028 (mobile)</li>
+        </ul>
 
 
-          <h2>Work experience</h2>
 
-          <h3>Operation Classified - Delta Force</h3>
-          <h4>2018-2019</h4>
-
-          <div>It's classified so I can't speak about it.</div>
-
-          <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-          <h3>Operation Classified - Delta Force</h3>
-          <h4>2015-2017</h4>
-
-          <div>It's classified so I can't speak about it.</div>
-
-          <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-          <h3>Operation Classified - Delta Force</h3>
-          <h4>2012-2015</h4>
-
-          <div>It's classified so I can't speak about it.</div>
-
-          <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-          <h2>Skills</h2>
-
-          <div class="skill-set">
-            <h3>Programming</h3>
-            <SkillRate name="C++" :rate="5" />
-            <SkillRate name="C#" :rate="5" />
-            <SkillRate name="Java" :rate="5" />
-            <SkillRate name="Python" :rate="4" />
-            <SkillRate name="GLSL" :rate="3" />
-            <SkillRate name="HLSL" :rate="3" />
-          </div>
-
-          <div class="skill-set">
-            <h3>Engines</h3>
-            <SkillRate name="Unity" :rate="5" />
-            <SkillRate name="Java Processing" :rate="4" />
-            <SkillRate name="Unreal Engine 4" :rate="3" />
-            <SkillRate name="Game Maker" :rate="3" />
-          </div>
-
-          <div class="skill-set">
-            <h3>Tools</h3>
-            <SkillRate name="Git (CL)" :rate="5" />
-            <SkillRate name="Trello/Codecks" :rate="4" />
-            <SkillRate name="Open GL" :rate="4" />
-            <SkillRate name="Blender" :rate="2" />
-          </div>
-          <div style="clear:both" />
-
-      </div> <!-- column --> 
-
-      <div class = "column">
         <h2>Education</h2>
 
-        <h3>Georgia Institute of Technology (Fall 2019-Present)</h3>
+        <h3>Georgia Institute of Technology</h3>
+        <h4>Fall 2019-Present</h4>
         <ul>
           <li>Pursuing B.S. in Computer Science (Threads: Media and Modeling/Simulation)</li>
           <li>Minor in Robotics</li>
@@ -84,14 +35,61 @@
           <li>4.0 current GPA</li>
         </ul>
 
-        <h2>Languages</h2>
+        <h2>Skills</h2>
 
-        <h3>American</h3>
-        <div>Basic knowledge but I know lots of one-liners</div>
+        <div class="skill-set">
+          <h3>Programming</h3>
+          <SkillRate name="C++" :rate="5" />
+          <SkillRate name="C#" :rate="5" />
+          <SkillRate name="Java" :rate="5" />
+          <SkillRate name="Python" :rate="4" />
+          <SkillRate name="GLSL" :rate="3" />
+          <SkillRate name="HLSL" :rate="3" />
+        </div>
 
-        <h3>That's it</h3>
-        <div>Who needs another language when you speak American?</div>
+        <div class="skill-set">
+          <h3>Engines</h3>
+          <SkillRate name="Unity" :rate="5" />
+          <SkillRate name="Java Processing" :rate="4" />
+          <SkillRate name="Unreal Engine 4" :rate="3" />
+          <SkillRate name="Game Maker" :rate="3" />
+        </div>
 
+        <div class="skill-set">
+          <h3>Tools</h3>
+          <SkillRate name="Git (CL)" :rate="5" />
+          <SkillRate name="Trello/Codecks" :rate="4" />
+          <SkillRate name="Open GL" :rate="4" />
+          <SkillRate name="Blender" :rate="2" />
+        </div>
+        <div style="clear:both" />
+
+      </div> <!-- column --> 
+
+      <div class = "column">
+
+        <h2>Work experience</h2>
+
+        <h3>Operation Classified - Delta Force</h3>
+        <h4>2018-2019</h4>
+
+        <div>It's classified so I can't speak about it.</div>
+
+        <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+
+        <h3>Operation Classified - Delta Force</h3>
+        <h4>2015-2017</h4>
+
+        <div>It's classified so I can't speak about it.</div>
+
+        <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+
+        <h3>Operation Classified - Delta Force</h3>
+        <h4>2012-2015</h4>
+
+        <div>It's classified so I can't speak about it.</div>
+
+        <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
 
         <h2>Besides...</h2>
         <div>
@@ -109,6 +107,7 @@
         </div>
 
       </div>  <!-- column -->
+
     </div> <!-- full content -->
   </div>
 </template>
@@ -147,6 +146,18 @@ h4 {
   padding: 0px;
   padding-top: 15px;
   font-style: italic;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .paragraph {
