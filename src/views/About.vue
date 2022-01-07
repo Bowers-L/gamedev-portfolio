@@ -40,7 +40,7 @@
         College of Computing VGDev club. I got to meet so many new people with impressive skillsets in areas of game development that I was less familiar with at the time, such as
         3D-modelling, texturing, 2D/3D art, level design, sound design, production, and more. During my time in Fall 2021 leading my own game, Beam, I got to dive into some of these
         fields myself (particularly level design). Unfortunately, the need to manage a team through all aspects of the game meant that I couldn't dedicate all of my time to programming,
-        but it was worth it (probably, hopefully). 
+        but it was definitely worth it (I think). 
       </div>
     </div>
 

@@ -33,6 +33,7 @@
           <li>Minor in Robotics</li>
           <li>May 2023 Graduation</li>
           <li>4.0 current GPA</li>
+          <li>VGDev Member/Lead</li>
         </ul>
 
         <h2>Skills</h2>
@@ -68,42 +69,53 @@
 
       <div class = "column">
 
-        <h2>Work experience</h2>
+        <h2>Work Experience and Affiliations</h2>
 
-        <h3>Operation Classified - Delta Force</h3>
-        <h4>2018-2019</h4>
-
-        <div>It's classified so I can't speak about it.</div>
-
-        <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-        <h3>Operation Classified - Delta Force</h3>
-        <h4>2015-2017</h4>
-
-        <div>It's classified so I can't speak about it.</div>
-
-        <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-        <h3>Operation Classified - Delta Force</h3>
-        <h4>2012-2015</h4>
-
-        <div>It's classified so I can't speak about it.</div>
-
-        <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-        <h2>Besides...</h2>
+        <h3>Scientific Software Developer Intern</h3>
+        <h4>Stellar Science Ltd Co</h4>
+        <h4>Summer 2021</h4>
+        <br>
         <div>
-          <h3>I ❤️ Violence</h3>
-          <div>I find it really soothing to just shoot at bad guys</div>
+          I worked at Stellar Science throughout the Summer of 2021 on project IDASS. 
+          During the internship, I maintained and debugged various image processing and UI functionalities such as pose estimation, image filtering, and temperature estimation.
+          I also worked on an image batch processor and its corresponding UI. Overall, I gained a lot of experience working in a large scale C++ codebase and got to pair-program with experts in the fields of Computer Science, Math, and Physics.
+        </div>
 
-          <h3>I 🧡 Sports</h3>
-          <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <div class="tech-stack">C++, graphics, git, Agile, ...</div>
 
-          <h3>I 💛 Politics</h3>
-          <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>Project Lead</h3>
+        <h4>VGDev</h4>
+        <h4>Fall 2019-Present, Led game during Fall 2021</h4>
+        <br>
+        <div>
+          I have been in VGDev since Fall 2019. 
+          VGDev is a student-led organization at Georgia Tech that provides resources and opportunities for students to work on games and supports students who choose to pursue game development as a career.
+          During Fall 2021, I served as project lead for the game <router-link to="/game-projects">Beam</router-link>, which is a 3D Portal-like puzzle game. I was responsible for managing tasks across the 
+          team and organizing weekly meetings, as well as providing weekly status updates to the larger organization.
+        </div>
+          
+        <h2>Besides all that...</h2>
+        <div>
+          <h3>I ❤️ Gaming</h3>
+          <div>This is an obvious one, but sometimes you just have to enjoy the fruits of others who partake in your craft in order to achieve a higher appretiation for it.
+          I've played games from a wide variety of genres from AAA to indie titles. Some of my favorite games include Overwatch, Dark Souls (all of them), Hollow Knight, Celeste, Ori, Guitar Hero, Destiny 2, The Talos Principle, and of course, Tetris.
+          
+          </div>
 
-          <h3>I 💚 Flowers</h3>
-          <div>Especially the big ones, with the trunk and leaves.</div>
+          <h3>I 🧡 Music</h3>
+          <div>
+            I played Piano through all of grade school (that's 12 years!), as well as Trumpet for 8 years. I really like playing classical pieces on the Piano (and it's also really good for impressing friends). I was a part of the 
+            Georgia Tech Marching Band during Fall 2019, which was an exhilerating experience. I also enjoy composing music, especially creating epic piano covers of game or film music.
+          </div>
+
+          <h3>I 💛 Sports</h3>
+          <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis (although it gets boring to watch sometimes).</div>
+
+          <h3>I 💚 People</h3>
+          <div>It's tough being an introvert sometimes, but that doesn't stop me from being invested in the various backgrounds and interests of others. I like seeing where other people
+          come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
+          be the side character can be both humbling and rewarding.
+          </div>
         </div>
 
       </div>  <!-- column -->
