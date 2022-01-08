@@ -90,7 +90,7 @@
         <div>
           I have been in VGDev since Fall 2019. 
           VGDev is a student-led organization at Georgia Tech that provides resources and opportunities for students to work on games and supports students who choose to pursue game development as a career.
-          During Fall 2021, I served as project lead for the game <router-link to="/game-projects">Beam</router-link>, which is a 3D Portal-like puzzle game. I was responsible for managing tasks across the 
+          During Fall 2021, I served as project lead for the game <router-link to="/game-projects">Beam</router-link>, which is a 3D puzzle game. I was responsible for managing tasks across the 
           team and organizing weekly meetings, as well as providing weekly status updates to the larger organization.
         </div>
           

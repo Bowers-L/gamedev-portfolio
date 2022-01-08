@@ -30,7 +30,7 @@
       </li>
 
       <li>
-        <i class="fab fa-discord"></i>
+        <i class="fab fa-discord fa-lg fa-fw"></i>
         L.cpp#8474
       </li>
 
