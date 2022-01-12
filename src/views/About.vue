@@ -4,7 +4,7 @@
 
     <div class="paragraph">
       <div>
-        My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and an aspiring game developer.
+        My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer.
         You can check out the games I've worked on <router-link to="/game-projects">here</router-link>.
       </div>
 

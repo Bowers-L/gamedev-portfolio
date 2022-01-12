@@ -39,12 +39,12 @@
         <a href="https://steamcommunity.com/profiles/76561198202784470" target="_blank">L.cpp</a>
       </li>
 
-      <!--
+      
       <li>
         <i class="fab fa-battle-net"></i>
         GrandmasterL#11175
       </li>
-      -->
+      
     </ul>
 
   </div>
