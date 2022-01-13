@@ -20,6 +20,7 @@ const routes: Array<RouteConfig> = [
     name: 'Game Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
   },
+  
   {
     path: '/other-projects',
     name: 'Other Projects',

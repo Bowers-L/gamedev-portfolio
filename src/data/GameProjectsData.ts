@@ -149,7 +149,7 @@ export default [
     `, "#383838"),
     new ProjectData("project-4", "One Way Out", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>One Way Out</strong> is a game developed entirely in C that runs on the GBA. The game was playtested and 
+    <strong>One Way Out</strong> was developed entirely in C and runs on the GBA. The game was playtested and 
     demoed through the Virtual Boy Advance - M (VBAM) emulator.
     </div>
     
@@ -193,18 +193,20 @@ export default [
     `, "#e80fb7"),
     new ProjectData("project-5", "Doggy Disk", "img/projects/project-5-icon.webp", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        <strong>Doggy Disk</strong> is a game that was developed as part of the Georgia Tech VGDev Summer Game Jam.
     </div>
     
+    <ul>
+    <li>Genre: 2D Tower Defense</li>
+    <li>Engine: Unity/C#</li>
+    <li>Team Size: 5</li>
+    <li>Contribution: Tower Design and Programming</li>
+    <li>Timeframe: Summer 2021</li>
+    </ul>
+    </div>
+
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+
     </div>
 
     <div class="paragraph">
