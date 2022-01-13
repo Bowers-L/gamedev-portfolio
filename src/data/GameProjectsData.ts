@@ -21,7 +21,7 @@ export default [
     </div>
 
     <div class="notice">
-    Download my game <a href=https://drive.google.com/drive/folders/1fqnLaA5cIK2XJ06ff5WT-_P3rH9fmU5q target="_blank">here!</a>
+    Play the game <a href=https://l-cpp.itch.io/beam target="_blank">here!</a>
     </div>
 
     <div class="paragraph center">
@@ -92,6 +92,11 @@ export default [
         while providing an interface to the main player scripts. 
     </div>
 
+    <div class="notice">
+    Play the game <a href=https://abnormal202.itch.io/beatdown target="_blank">here</a>
+    </div>
+    
+
     <div class="paragraph center">
     <img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay1.webp" alt="BeatDown Gameplay" />
     <img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay2.webp" alt="BeatDown Gameplay" />
@@ -100,39 +105,41 @@ export default [
     new ProjectData("gunne monke", "Agent Gunne", "img/projects/project-3-icon.jpg", `
     <div class="paragraph">
         <strong>Agent Gunne</strong> (or <strong>Gunne Monke</strong>) is a game I worked on as part of the Game Design class (CS 4455) at Georgia Tech. 
+        The game was designed and developed in the span of 6 weeks. I would consider this my first real experience creating a full 3D game with Unity, and it helped
+        shape my experiences creating Unity games later on. 
     </div>
 
     <div class = "paragraph">
     Project Info:
 
     <ul>
-    <li>Genre: 2D Rhythm/Top Down</li>
+    <li>Genre: 3D Combat Adventure/Souls-like</li>
     <li>Engine: Unity/C#</li>
-    <li>Team Size: 13</li>
-    <li>Contribution: Programmer, Level Design</li>
+    <li>Team Size: 5</li>
+    <li>Contribution: Player Controller, Combat, Animations, Enemy AI</li>
     <li>Timeframe: Spring 2021</li>
     </ul>
     </div>
-    
+
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/sNdpHVezyng" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        During the development of this game, I designed and implemented the combat system, as well as rigging the player's animations 
+        using state machines. I was heavily inspired by the Dark Souls series of games when designing the combat and 
+        got to experience first hand the interconnectedness between animation and balanced gameplay. I spent time tweaking animation
+        speeds/durations as well as hitbox sizes and active hitbox/hurtbox windows to achieve a better balance. I noticed early on that
+        it was easy for the player to "tank" hits and get through all the combat by mashing buttons, so I also implemented a stamina
+        system as well as a stagger system. The stagger system (known as "poise" in the Souls games) ensures that the player gets punished 
+        with a stagger animation if they get hit too many times. 
+        <br>
+        The main mechanic of the game's boss, "Hugh Mann", pushes the player back and causes them to fall whenever they get hit. This was achieved by
+        adding additional states to the player's state machine as well as adding a behaviour script that applies a force pointing away from the hitbox of the boss. 
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
+    <div class="notice">
+    Source code available for download <a href=https://github.com/Bowers-L/BondMonke target="_blank">here!</a>
     </div>
 
     <div class="paragraph center">
@@ -142,7 +149,7 @@ export default [
     `, "#383838"),
     new ProjectData("project-4", "One Way Out", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
+    <strong>One Way Out</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
     </div>
     

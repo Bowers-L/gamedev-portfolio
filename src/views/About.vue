@@ -4,7 +4,8 @@
 
     <div class="column">
       <div>
-        My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer.
+        My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer. While I have engaged
+        in many fields of game development, my primary interests are in gameplay design, level design, and gameplay systems programming.
         You can check out the games I've worked on <router-link to="/game-projects">here</router-link>.
       </div>
 
