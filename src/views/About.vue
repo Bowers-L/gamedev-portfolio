@@ -1,16 +1,7 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
-
+    
     <div class="column">
-      <div>
-        My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer. While I have engaged
-        in many fields of game development, my primary interests and experience are in gameplay design, level design, and gameplay systems programming.
-        You can check out the games I've worked on <router-link to="/game-projects">here</router-link>.
-      </div>
-
-
-
       <div>
         <br>
         My game development journey began my sophomore year of high school. I was taking Intro to Digital Technology, which was the required starting
@@ -43,6 +34,7 @@
         fields myself (particularly level design). Unfortunately, the need to manage a team through all aspects of the game meant that I couldn't dedicate all of my time to programming,
         but it was definitely worth it. 
       </div>
+      -->
     </div>
 
     <div class="column">

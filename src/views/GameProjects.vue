@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>Games</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some games I've made or heavily contributed to.
+        <h1>Hello!</h1> My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer. While I have engaged
+        in many fields of game development, my primary interests and experience are in gameplay design, level design, and gameplay systems programming.
+        You can check out the games I've worked on below!
     </div>
 
     <ProjectsList v-bind:projects="projects" />

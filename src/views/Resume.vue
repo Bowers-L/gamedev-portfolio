@@ -4,7 +4,7 @@
     <h1>Resume</h1>
 
     <div style="margin-top:20px; margin-bottom:20px;">
-      <a class="download-link" href="d/LoganBowersResume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Click here to download my full resume as a PDF</a>
+      <h3><a class="download-link" href="d/LoganBowersResume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Click here to download my full resume as a PDF</a></h3>
       <div style="clear:both"></div>
     </div>
 
