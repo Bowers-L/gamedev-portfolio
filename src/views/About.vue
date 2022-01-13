@@ -1,7 +1,9 @@
 <template>
   <div style="margin-bottom: 80px;">
     
+    <h1>Something About Me</h1>
     <div class="column">
+
       <div>
         <br>
         My game development journey began my sophomore year of high school. I was taking Intro to Digital Technology, which was the required starting
