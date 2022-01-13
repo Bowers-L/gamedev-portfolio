@@ -101,6 +101,19 @@ export default [
     <div class="paragraph">
         <strong>Agent Gunne</strong> (or <strong>Gunne Monke</strong>) is a game I worked on as part of the Game Design class (CS 4455) at Georgia Tech. 
     </div>
+
+    <div class = "paragraph">
+    Project Info:
+
+    <ul>
+    <li>Genre: 2D Rhythm/Top Down</li>
+    <li>Engine: Unity/C#</li>
+    <li>Team Size: 13</li>
+    <li>Contribution: Programmer, Level Design</li>
+    <li>Timeframe: Spring 2021</li>
+    </ul>
+    </div>
+    
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/sNdpHVezyng" frameborder="0" allowfullscreen></iframe>
     </div>
