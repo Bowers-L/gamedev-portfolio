@@ -2,7 +2,7 @@
   <div style="margin-bottom: 80px;">
     <h1>Hello!</h1>
 
-    <div class="paragraph">
+    <div class="column">
       <div>
         My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer.
         You can check out the games I've worked on <router-link to="/game-projects">here</router-link>.
@@ -44,10 +44,11 @@
       </div>
     </div>
 
-    
+    <div class="column">
       <div class="photo">
         <img class = "portrait" src="img/PicturesOfLogan/Logan_Avalon.jpg" alt="Avatar of Logan" width="300px"/> 
       </div>
+    </div>
     
     <!--
     <div class="gallery">
@@ -87,6 +88,11 @@
   display: inline-block;
   max-width: 700px;
   margin-bottom: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
 }
 
 .photos {
