@@ -36,7 +36,7 @@
         fields myself (particularly level design). Unfortunately, the need to manage a team through all aspects of the game meant that I couldn't dedicate all of my time to programming,
         but it was definitely worth it. 
       </div>
-      -->
+      
     </div>
 
     <div class="column">
