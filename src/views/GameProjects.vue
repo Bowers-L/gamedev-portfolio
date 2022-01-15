@@ -3,8 +3,8 @@
 
     <div style="margin-bottom: 30px;">
         <h1>Hello!</h1> My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer. While I have engaged
-        in many fields of game development, my primary interests and experience are in gameplay design, level design, and gameplay systems programming.
-        You can check out the games I've worked on below!
+        in many fields of game development, my primary interests and experience are in gameplay design, level design, and gameplay systems programming. I strive
+        to create mechanics and situations that are easy for the player to understand, but have hidden depth in application. You can check out the games I've worked on below!
     </div>
 
     <ProjectsList v-bind:projects="projects" />
