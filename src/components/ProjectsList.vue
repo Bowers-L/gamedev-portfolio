@@ -6,7 +6,7 @@
             :key="project.id"
               @click="showDetails(project)"
               class="project-item"
-              :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+              :class=project.styleClass>
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
@@ -107,7 +107,7 @@ filter: brightness(120%);
   .projects-list {
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(250px, auto);
   }
@@ -122,6 +122,12 @@ filter: brightness(120%);
     grid-column-end: span 2;
   }
   .high {
+    grid-row-end: span 2;
+  }
+  .first {
+    grid-column-end: span 2;
+    grid-column-start: 1;
+    grid-row-start: 1;
     grid-row-end: span 2;
   }
 }

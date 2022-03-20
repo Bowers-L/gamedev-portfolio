@@ -1,64 +1,53 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("slider", "Slider", "img/projects/Slider-icon.png", 
+    new ProjectData("slider", "Current Project: Slider", "img/projects/Slider-icon.png", 
     `
     <div class="paragraph">
-     <strong>Beam</strong> is a 3D first person puzzle game developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
-     the club, and was the project lead during development. 
+     <strong>Slider</strong> was originally developed as part of the 2021 GMTK Game Jam in the summer. It is a 2D Top-Down take on the Puzzle genre. The original game featured a 3x3 <a href="http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html">eight puzzle</a> game world in which the player collected
+     tiles that represented different parts of the world and could manipulate the world using a special UI that mimicked an eight puzzle layout. <br>
     </div>
 
     <div class = "paragraph">
     Project Info:
 
     <ul>
-    <li>Genre: 3D First Person Puzzle</li>
+    <li>Genre: 2D Top Down Puzzle</li>
     <li>Engine: Unity/C#</li>
-    <li>Team Size: 6</li>
-    <li>Contribution: Project Lead, Level Designer, Programmer, VFX Artist</li>
-    <li>Timeframe: Fall 2021</li>
+    <li>Team Size: 30+</li>
+    <li>Contribution: Gameplay Programmer, AI, Shader Engineer</li>
+    <li>Timeframe: Spring 2022</li>
     </ul>
     </div>
 
     <div class="notice">
-    Play the game <a href=https://l-cpp.itch.io/beam target="_blank">here!</a>
+    Slider is an ongoing game in development with a planned Steam release this summer!<br>
+    Play the game jam version <a href=https://randomerz.itch.io/slider-jam target="_blank">here</a>
     </div>
 
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/Mg_dVNZKB9U" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/8ePF3Jkcga4" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
-        The primary puzzle mechanics of Beam are, of course, the Beams. The grab beam allows the user to control an object within line of sight. However, the catch is that the 
-        length of the beam must be constant while in use, meaning that the player can not contract or extend the beam. The swap beam then allows the user to swap places with an object.
-        <br>
-        I wanted to create an environment in which my team could come up with interesting level ideas and quickly iterate on the designs to create challenging, but fair levels. In order to 
-        accomplish this, I outlined a suggested pipeline for creating levels:
-        <ul>
-        <li>Concept Design- Come up with the general mechanics/concept that the level will test.</li>
-        <li>Mockup - Draw a top-down view of what the level with look like, including the solution.</li>
-        <li>Greybox - Block out the important level geometry in Unity (we used ProBuilder for this)</li>
-        <li>Playtest - Make sure the level is beatable. Look for alternative solutions.</li>
-        <li>Analyze/Modify - Make changes to the level based on feedback from playtesting. Do more playtesting/modifications if necessary.</li>
-        <li>Polish - Clean up the geometry. Add textures, lighting, narration, etc.</li>
-        </ul>
-        Playtesting during development was essential for gauging how difficult the puzzles were and how balanced the player felt compared to their environment. 
-        If the player's abilities were too powerful, then it would be hard to come up with intriguing puzzles without them feeling forced. 
-        For example, originally, objects would retain their momentum when the beam was released, however this became too powerful, so the momentum needed to be capped in order
-        to prevent players from throwing cubes across the map and immediately swapping to them. Another way to restrict the player's movement was to add special types of glass that prevented the player from using specific beam types.
+        I joined the development team at the start of 2022 as it was pitched to the Georgia Tech VGDev club. The goal is to create 8 additional areas of comparable length to the original game with a
+    cohesive gameplay, visual, and story arc. I was primarily responsible for the creation of gameplay systems and puzzles in the "Caves" area, which involved implementing custom lighting and pathfinding.<br><br>
 
-        <br>
-        Overall, I gained an intuitive understanding of what makes a game fun (specifically in the puzzle genre). It is important to create simple mechanics with a complex ceiling and to construct the environment in a way 
-        that restricts player choice just enough to allow for creative problem solving. The biggest challenge for the team and myself was definitely making levels that are the right amount of difficult while still being fun to solve.
-        Nonetheless, it was a rewarding experience, and I definitely learned a thing or two about design that I can use to make even better games in the future. 
-
+    When I first joined the team, there was already an established codebase with about 50 scripts at the time, so I had to get used some of the systems already in the game. I find that
+    one of the best ways to get used to a new codebase is by interacting with the code itself. Change one or two lines of code and see how that affects the whole system. Another way is by fixing
+    simple bugs, as well as refactoring parts of the code to achieve better quality.<br><br>
+    
+    One of the key systems that I worked on extensively at first was the UI for the slider puzzle (aka the "Artifact UI"). In the original jam game, moves had to be made on the UI one at a time. However,
+    for the full game, we wanted interacting with the UI to be more seamless and intuitive. There was already a queueing system in its infancy at the time, however, the system was quite buggy in that tiles could be made
+    to move diagonally, pass through other tiles, etc. (among other issues). Additionally, since different areas had different mechanics for how tiles behaved (for example, one area had tiles rotating in 2x2s, and another
+    had them sliding around 2048 style) the system had to be extendible to accomodate these mechanics. By the time I finished overhauling these issues, I had a pretty solid understanding of the core systems the game
+    depended on.<br><br>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay1.png" alt="Gameplay of Beam"/>
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay2.png" alt="Gameplay of Beam" />
+        <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/dt6ld4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     </div>
-    `, "#23bd69", false, true), 
+    `, "#23bd69", "first"),
     new ProjectData("beam", "Beam", "img/projects/Beam-icon.png", 
     `
     <div class="paragraph">
@@ -116,7 +105,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay1.png" alt="Gameplay of Beam"/>
         <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay2.png" alt="Gameplay of Beam" />
     </div>
-    `, "#23bd69", true),
+    `, "#23bd69"),
     new ProjectData("beatdown", "BeatDown", "img/projects/Beatdown-icon.png", `
     <div class="paragraph">
         <strong>BeatDown</strong> is a 2D rhythm game created in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
