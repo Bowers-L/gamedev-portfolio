@@ -4,6 +4,9 @@ export default [
     new ProjectData("slider", "Current Project: Slider", "img/projects/Slider-icon.png", 
     `
     <div class="paragraph">
+        (Note: This is an ongoing project, so the information here will likely get updated in the future)
+    </div>
+    <div class="paragraph">
      <strong>Slider</strong> was originally developed as part of the 2021 GMTK Game Jam in the summer. It is a 2D Top-Down take on the Puzzle genre. The original game featured a 3x3 <a href="http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html">eight puzzle</a> game world in which the player collected
      tiles that represented different parts of the world and could manipulate the world using a special UI that mimicked an eight puzzle layout. <br>
     </div>
