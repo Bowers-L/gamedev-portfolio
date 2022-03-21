@@ -29,9 +29,10 @@
         <h3>Georgia Institute of Technology</h3>
         <h4>Fall 2019-Present</h4>
         <ul>
-          <li>Pursuing B.S. in Computer Science (Threads: Media and Modeling/Simulation)</li>
-          <li>Minor in Robotics</li>
-          <li>May 2023 Graduation</li>
+          <li>BSMS Program for Computer Science</li>
+          <li>Pursuing B.S. in Computer Science Fall 2022 Graduation</li>
+          <li>Media and Modeling/Simulation Threads</li>
+          <li>Pursuing M.S. in Computer Science (Graphics) Fall 2023 Graduation</li>
           <li>4.0 current GPA</li>
           <li>VGDev Member/Lead</li>
         </ul>
