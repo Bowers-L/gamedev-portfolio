@@ -107,7 +107,7 @@ filter: brightness(120%);
   .projects-list {
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(4, 2fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(250px, auto);
   }
@@ -127,6 +127,13 @@ filter: brightness(120%);
   .first {
     grid-column-end: span 2;
     grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+  }
+
+  .second {
+    grid-column-end: span 2;
+    grid-column-start: 3;
     grid-row-start: 1;
     grid-row-end: span 2;
   }

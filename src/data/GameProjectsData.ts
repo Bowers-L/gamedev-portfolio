@@ -1,13 +1,13 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("slider", "Current Project: Slider", "img/projects/Slider-icon.png", 
+    new ProjectData("slider", "Featured Project: Slider", "img/projects/Slider-icon.png", 
     `
     <div class="paragraph">
         (Note: This is an ongoing project, so the information here will likely get updated in the future)
     </div>
     <div class="paragraph">
-     <strong>Slider</strong> was originally developed as part of the 2021 GMTK Game Jam in the summer. It is a 2D Top-Down take on the Puzzle genre. The original game featured a 3x3 <a href="http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html">eight puzzle</a> game world in which the player collected
+     <strong>Slider</strong> is a game originally developed by <a href="https://randomerz.itch.io/" target="_blank">Daniel Carr</a> as part of the 2021 GMTK Game Jam in the summer. It is a 2D Top-Down take on the Puzzle genre. The original game featured a 3x3 <a href="http://www.aiai.ed.ac.uk/~gwickler/eightpuzzle-inf.html">eight puzzle</a> game world in which the player collected
      tiles that represented different parts of the world and could manipulate the world using a special UI that mimicked an eight puzzle layout. <br>
     </div>
 
@@ -15,17 +15,18 @@ export default [
     Project Info:
 
     <ul>
-    <li>Genre: 2D Top Down Puzzle</li>
+    <li>Genre: 2D Top Down Puzzle Exploration</li>
     <li>Engine: Unity/C#</li>
     <li>Team Size: 30+</li>
-    <li>Contribution: Gameplay Programmer, AI, Shader Engineer</li>
-    <li>Timeframe: Spring 2022</li>
+    <li>Contribution: Gameplay Programmer, AI, Shader Engineer, Design</li>
+    <li>Timeframe: Spring 2022 to Present</li>
     </ul>
     </div>
 
     <div class="notice">
-    Slider is an ongoing game in development with a planned Steam release this summer!<br>
-    Play the game jam version <a href=https://randomerz.itch.io/slider-jam target="_blank">here</a>
+    Slider is an ongoing game in development with a planned Steam release this summer! <a href=https://store.steampowered.com/app/1916890/Slider/ target="_blank">Steam Link</a><br>
+    Play the game jam version <a href=https://randomerz.itch.io/slider-jam target="_blank">here</a><br>
+    
     </div>
 
     <div class="paragraph center">
@@ -34,7 +35,7 @@ export default [
 
     <div class="paragraph">
         I joined the development team at the start of 2022 as it was pitched to the Georgia Tech VGDev club. The goal is to create 8 additional areas of comparable length to the original game with a
-    cohesive gameplay, visual, and story arc. I was primarily responsible for the creation of gameplay systems and puzzles in the "Caves" area, which involved implementing custom lighting and pathfinding.<br><br>
+    cohesive gameplay, visual, and story arc for each. I was primarily responsible for the creation of gameplay systems and puzzles in the "Caves" and "Factory" areas, which involved implementing custom lighting, AI, and graph algorithms, as well as maintaining a growing codebase.<br><br>
 
     When I first joined the team, there was already an established codebase with about 50 scripts at the time, so I had to get used some of the systems already in the game. I find that
     one of the best ways to get used to a new codebase is by interacting with the code itself. Change one or two lines of code and see how that affects the whole system. Another way is by fixing
@@ -50,8 +51,28 @@ export default [
     <div class="paragraph center">
         <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="https://streamable.com/e/dt6ld4" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
     </div>
+
+    <div class="paragraph">
+
+        Moving forward I started to specialize in developing systems for specific areas. One of these systems was the power system seen in the Factory area. I needed to model the flow of electricity
+        between various objects such as power sources, wires, doors, buttons, etc. In order to do this, I created an ElectricalNode base that stores neighbor references to adjancent nodes, creating a graph structure
+        in which the neighbors of each node represent edges in a graph. Each node has a state in that it can be either powered or not. I wanted to create an effiecent system under which 
+        any change (such as a button being pressed, lever being switched etc.) was immediately relayed to the other nodes. In order to accomplish this, I devised an algorithm where each
+        node would keep track of a ref counter representing the number of possible paths to a power source, as well as list of previous node pointers that, when followed, will create a path
+        from the node to each power source. It was especially tricky to handle cases in which nodes or edges could be added on a whim (see the case below in which a conductive
+        object connects various points on a wire), but by keeping track of each path and updating the internal state correctly, these cases were relatively simple to handle
+        and could be debugged efficiently. 
+
+    <div class="paragraph center">
+        <div style="width:100%;height:0px;position:relative;padding-bottom:56.250%;"><iframe src="vid/FactoryConductionPuzzle.mp4" frameborder="0" width="50%" height="50%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe></div>
+    </div>
+
+    Overall, I gained a ton of experience working on this project that I've barely even scratched the surface of, and it has been a remarkable journey to work with such a talented team of develoeprs. 
+</div>
+
+
     `, "#23bd69", "first"),
-    new ProjectData("beam", "Beam", "img/projects/Beam-icon.png", 
+    new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-icon.png", 
     `
     <div class="paragraph">
      <strong>Beam</strong> is a 3D first person puzzle game developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
@@ -98,20 +119,22 @@ export default [
         to prevent players from throwing cubes across the map and immediately swapping to them. Another way to restrict the player's movement was to add special types of glass that prevented the player from using specific beam types.
 
         <br>
+
+        <div class="paragraph center">
+            <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay1.png" alt="Gameplay of Beam"/>
+            <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay2.png" alt="Gameplay of Beam" />
+        </div>
         Overall, I gained an intuitive understanding of what makes a game fun (specifically in the puzzle genre). It is important to create simple mechanics with a complex ceiling and to construct the environment in a way 
         that restricts player choice just enough to allow for creative problem solving. The biggest challenge for the team and myself was definitely making levels that are the right amount of difficult while still being fun to solve.
         Nonetheless, it was a rewarding experience, and I definitely learned a thing or two about design that I can use to make even better games in the future. 
 
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay1.png" alt="Gameplay of Beam"/>
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay2.png" alt="Gameplay of Beam" />
-    </div>
-    `, "#23bd69"),
+
+    `, "#23bd69", "second"),
     new ProjectData("beatdown", "BeatDown", "img/projects/Beatdown-icon.png", `
     <div class="paragraph">
-        <strong>BeatDown</strong> is a 2D rhythm game created in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
+        <strong>BeatDown</strong> is a 2D rhythm game led by <a href="https://www.drewbusch.com/">Drew Busch</a> and developed in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
         a player shape along a stage grid each time you hit the beat. The game features a charge mechanic that allows you to crush opponents, as well as powerups and ultimates. 
     </div>
 
