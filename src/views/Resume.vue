@@ -62,6 +62,14 @@
           <SkillRate name="Git (CL)" :rate="5" />
           <SkillRate name="Trello/Codecks" :rate="4" />
           <SkillRate name="Open GL" :rate="4" />
+
+        </div>
+
+        <div class="skill-set">
+          <h3>Other</h3>
+          <SkillRate name="FL Studio" :rate="4" />
+          <SkillRate name="Aseprite" :rate="4" />
+          <SkillRate name="Photoshop" :rate="3" />
           <SkillRate name="Blender" :rate="2" />
         </div>
         <div style="clear:both" />
@@ -99,22 +107,23 @@
         <div>
           <h3>I ❤️ Gaming</h3>
           <div>This is an obvious one, but sometimes you just have to enjoy the fruits of others who partake in your craft in order to achieve a higher appretiation for it.
-          I've played games from a wide variety of genres from AAA to indie titles. Some of my favorite games include Overwatch, Dark Souls (all of them), Hollow Knight, Celeste, Ori, Guitar Hero, Destiny 2, The Talos Principle, and of course, Tetris.
+          I've played games from a wide variety of genres from AAA to indie titles. Some of my favorite games include Overwatch, Dark Souls (all of them), Undertale, Hollow Knight, Celeste, Ori, Guitar Hero, Various Puzzle Games (Portal, The Talos Principle, The Witness), and of course, Tetris.
           
           </div>
 
           <h3>I 🧡 Music</h3>
           <div>
-            I played Piano through all of grade school (that's 12 years!), as well as Trumpet for 8 years. I really like playing classical pieces on the Piano (and it's also really good for impressing friends). I was a part of the 
-            Georgia Tech Marching Band during Fall 2019, which was an exhilerating experience. I also enjoy composing music, especially creating epic piano covers of game or film music.
+            I played Piano through all of grade school (that's 12 years!), as well as Trumpet for 8 years. I really like playing classical pieces on the Piano, as well as improvising my own melodies. I also did marching band and concert band throughout High School as a trumpet player, and was a part of the 
+            Georgia Tech Marching Band during Fall 2019, which was an exhilerating experience.<br><br>
+            
+            I also enjoy composing music, especially creating epic piano covers of game or film music. More recently, I've been working in FL Studio to remake parts of the Undertale soundtrack as well as write music for VGDev games.<br>
           </div>
 
           <h3>I 💛 Sports</h3>
-          <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis (although it gets boring to watch sometimes).</div>
+          <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis, Ping-Pong, Racquetball, and any other sport that involves bouncing balls back and forth.</div>
 
           <h3>I 💚 People</h3>
-          <div>It's tough being an introvert sometimes, but that doesn't stop me from being invested in the various backgrounds and interests of others. I like seeing where other people
-          come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
+          <div>I like seeing where other people come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
           be the side character can be both humbling and rewarding.
           </div>
         </div>

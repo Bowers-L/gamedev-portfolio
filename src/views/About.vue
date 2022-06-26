@@ -4,39 +4,39 @@
     <h1>Something About Me</h1>
     <div class="column">
 
-      <div>
-        <br>
-        My game development journey began my sophomore year of high school. I was taking Intro to Digital Technology, which was the required starting
-        course for the Computer Science pathway. This was where I first learned programming through web development. We were creating portfolio websites
-        (much like this one) using raw HTML/CSS. For whatever reason, we didn't really learn to code in the class, so I decided to learn Javascript by making
-        a Brick Breaker game. While I have hardly touched Javascript or Web Development since, it was a good introduction to the programming logic and constructs that I 
-        would reinforce in the years that folowed.
-      </div>
+    <div>
+    Everyone needs to have an origin story, right? Well, I won’t waste any time in providing that which you seek.
+    </div><br>
 
-      <div>
-        <br>
-        I wanted to make something more substantial, however, so I learned Python over the Winter break and experimented a bit with the Pygame module. I created a few more small projects during this time, such as 
-        a Snake game and some animations. With my newfound knowledge of Python, I returned to the class the following Spring and was intrigued to find that we would spend the entire semester working in 
-        MIT's Scratch learning to "code" (but, ya know, without the code). It's actually pretty interesting the things you can create given a limited toolset. By the end of it all, I had created a clone 
-        of Microsoft style Solitare using Drag and Drop blocks (of my own volition, of course), and it was probably the most painful game development project I've worked on to date. 
-      </div>
+    <div>
+      Throughout high school, I was a top performing student. I excelled at subjects such as Math, Physics, and Chemistry, 
+      as well as being heavily involved in music as both a piano player and a member of the school band. Despite this, I struggled to 
+      find direction in my life, as at the time it felt like I was only doing things that I had to or was told to do. 
+    </div><br>
 
-      <div>
-        <br>
-        Throughout the rest of High School, I would essentially use game development as an excuse to learn programming. Although I would occasionally mess around with game engines, I didn't 
-        really learn Unity until it became necessary for later projects in college. During summers, I worked on a graphics engine using OpenGL. Although I spent a lot of this time following tutorials online,
-        I was fascinated to discover the frameworks that modern game engines are built off of (and I also picked up on the basics of C++ during this time). 
-      </div>
+    <div>
+      During one fateful summer, I discovered a popular independently developed game called “Undertale”. 
+      I was enamored by the game’s soundtrack, which inspired me to compose my own music. 
+      Eventually, the prospect of doing game development/programming intrigued me enough to take Computer Science courses starting with my Sophomore year of high school. 
+      Due to my strong background in math, programming came naturally for the most part, and I used these skills while still in school to develop small projects such as games and even a graphics engine. 
+      My senior year culminated in me collaborating with another student to develop a Tetris arcade machine in Java that runs on a Raspberry Pi. 
+    </div><br>
 
-      <div>
-        <br>
-        During college, my perspective on game development transformed considerably as I found a network of like-minded people in the form of the Georgia Tech
-        College of Computing VGDev club. I got to meet so many new people with impressive skillsets in areas of game development that I was less familiar with at the time, such as
-        3D-modelling, texturing, 2D/3D art, level design, sound design, production, and more. During my time in Fall 2021 leading my own game, Beam, I got to dive into some of these
-        fields myself (particularly level design). Unfortunately, the need to manage a team through all aspects of the game meant that I couldn't dedicate all of my time to programming,
-        but it was definitely worth it. 
-      </div>
-      
+    <div>
+      Engineers solve problems, and I am a problem solver first. I wish to understand the world that I find myself in so that I can come up with simple and practical solutions. 
+      In industry, this is sometimes referred to as the “problem domain”. In terms of programming, this means that I value sensibility and simplicity. 
+      I write code that is easy for others to understand while having the problem and its specificities in mind. 
+      Through experience, I’ve found that this also helps with debugging and team satisfaction :). 
+    </div><br>
+
+    <div>
+      While in college, (in between figuring out my career path) I participated in Georgia Tech’s VGDev club, where I found like minded people that enjoy my passion for game development. 
+      Through this experience, I’ve worked with teams of people from various technical and non-technical backgrounds such as programmers, artists, designers, composers, and producers among others. 
+      During Fall 2021, I got to lead a team of developers to bring my own game to life, Beam. This was an exhillerating experience, as I got the chance to develop better project management skills alongside other team 
+      leads. The most recent and most ambitious project I’m working on right now is Slider, a game that is getting released in Fall 2022 on Steam! I became a primary contributor and leader of the programming effort on the team, and It was really exciting to see how far I’d come in just a few short years!
+      I really enjoy learning from other people and seeing all the great things we can accomplish together.
+    </div><br>
+
     </div>
 
     <div class="column">

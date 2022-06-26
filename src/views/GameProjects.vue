@@ -2,10 +2,11 @@
   <div>
 
     <div style="margin-bottom: 30px;">
-        <h1>Greetings!</h1> My name is <strong>Logan Bowers</strong>, a pupil of the programming arts and game developer. While I have engaged
-        in many fields of game development, my primary interests and experience are in gameplay/graphics programming and game design.
+        <h1>Greetings!</h1> 
+        
+        <h3>My name is <strong>Logan Bowers</strong>. I am an engineer who makes games (and a bunch of other things). I am really excited to show you my website, and I hope you enjoy your stay here!</h3><br>
 
-        You can check out the projects I've worked on below!
+        <h3>Feel free to check out the projects I've worked on below. I'll still be here when you get back.</h3>
     </div>
 
     <ProjectsList v-bind:projects="projects" />
