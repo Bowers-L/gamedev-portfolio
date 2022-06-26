@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("slider", "Featured Project: Slider", "img/projects/Slider-icon.png", 
+    new ProjectData("slider", "Featured Project: Slider", "img/projects/Slider-icon.PNG", 
     `
     <div class="paragraph">
         (Note: This is an ongoing project, so the information here will likely get updated in the future)
@@ -72,7 +72,7 @@ export default [
 
 
     `, "#23bd69", "first"),
-    new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-icon.png", 
+    new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-icon.PNG", 
     `
     <div class="paragraph">
      <strong>Beam</strong> is a 3D first person puzzle game developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
@@ -220,7 +220,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/AgentGunne/AgentGunneGameplay2.png" alt="Agent Gunne Gameplay" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "One Way Out", "img/projects/OneWayOut-icon.png", `
+    new ProjectData("project-4", "One Way Out", "img/projects/OneWayOut-icon.PNG", `
     <div class="paragraph">
     <strong>One Way Out</strong> was developed entirely in C and runs on the GBA. The game was playtested and 
     demoed through the Virtual Boy Advance - M (VBAM) emulator.
