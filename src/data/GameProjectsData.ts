@@ -238,8 +238,12 @@ export default [
     </ul>
     </div>
 
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/CL9VL75dLRQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="notice">
-    Source code available for download <a href=https://github.com/Bowers-L/OneWayOut-GBA-Final-Project- target="_blank">here!</a>
+        Source code available for download <a href=https://github.com/Bowers-L/OneWayOut-GBA-Final-Project- target="_blank">here!</a>
     </div>
 
     <div class = "paragraph">
