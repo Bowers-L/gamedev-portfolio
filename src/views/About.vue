@@ -5,37 +5,36 @@
     <div class="column">
 
     <div>
-    Everyone needs to have an origin story, right? Well, I won’t waste any time in providing that which you seek.
+      So you want to learn more about me? Well then, I hope I don't disappoint.
     </div><br>
 
     <div>
-      Throughout high school, I was a top performing student. I excelled at subjects such as Math, Physics, and Chemistry, 
-      as well as being heavily involved in music as both a piano player and a member of the school band. Despite this, I struggled to 
-      find direction in my life, as at the time it felt like I was only doing things that I had to or was told to do. 
+      I am a BSMS Computer Science student game-dev at Georgia Tech. I will graduate with a Bachelors in Computer Science in December 2022 and plan to graduate with a Masters in December 2023.
+      In between classes, I am an active member of the VGDev (Video Game Development) club, where I lead and contribute to games, primarily as a programmer. I aim to employ best software engineering
+      practices, while navigating the volatile, but exciting world of game development.
     </div><br>
 
     <div>
-      During one fateful summer, I discovered a popular independently developed game called “Undertale”. 
-      I was enamored by the game’s soundtrack, which inspired me to compose my own music. 
-      Eventually, the prospect of doing game development/programming intrigued me enough to take Computer Science courses starting with my Sophomore year of high school. 
-      Due to my strong background in math, programming came naturally for the most part, and I used these skills while still in school to develop small projects such as games and even a graphics engine. 
-      My senior year culminated in me collaborating with another student to develop a Tetris arcade machine in Java that runs on a Raspberry Pi. 
+      I believe in growth through connection. I strive to learn something new from every person I meet and every experience I encounter. 
+      I understand the delicate balance between deep, focused work and being open to new perspectives by being attentive and listening to other people. 
+      It is this balance that shapes every action I take both in the professional world and outside of it. 
     </div><br>
 
     <div>
-      Engineers solve problems, and I am a problem solver first. I wish to understand the world that I find myself in so that I can come up with simple and practical solutions. 
-      In industry, this is sometimes referred to as the “problem domain”. In terms of programming, this means that I value sensibility and simplicity. 
-      I write code that is easy for others to understand while having the problem and its specificities in mind. 
-      Through experience, I’ve found that this also helps with debugging and team satisfaction :). 
+      As a software engineer and a game developer, I take the time to learn how to do things the right way, and have become a reliable asset on the teams I have worked on. 
+      I value sensibility and simplicity, and strive to adopt techniques, styles, and practices that make it as easy as possible for people to work with me. 
+      My programming style has 3 pillars: readability, extendibility, and maintainability, and I pull from methodologies such as “clean code”, SOLID, DRY, Object-Oriented Design Patterns, etc. in order to enhance this style. 
+      By adopting this mindset, I observed an increase in team satisfaction, as well as the ability to maintain, debug, and add new features to large projects.
     </div><br>
 
     <div>
-      While in college, (in between figuring out my career path) I participated in Georgia Tech’s VGDev club, where I found like minded people that enjoy my passion for game development. 
-      Through this experience, I’ve worked with teams of people from various technical and non-technical backgrounds such as programmers, artists, designers, composers, and producers among others. 
-      During Fall 2021, I got to lead a team of developers to bring my own game to life, Beam. This was an exhillerating experience, as I got the chance to develop better project management skills alongside other team 
+      While in college, I’ve worked with teams of people from various technical and non-technical backgrounds such as programmers, artists, designers, composers, and producers among others.
+      During Fall 2021, I got to lead a team of developers to bring my own game to life, Beam. This was an exhillerating experience, as I got the chance to develop better project management skills alongside other team
       leads. The most recent and most ambitious project I’m working on right now is Slider, a game that is getting released in Fall 2022 on Steam! I became a primary contributor and leader of the programming effort on the team, and It was really exciting to see how far I’d come in just a few short years!
       I really enjoy learning from other people and seeing all the great things we can accomplish together.
     </div><br>
+
+
 
     </div>
 
