@@ -74,7 +74,13 @@ export default [
 </div>
 
 
-    `, "#23bd69", "first"),
+    `, "#23bd69", "slider"),
+
+    new ProjectData("blood favor", "A current project: Blood Favor", "img/projects/BloodFavor-icon.PNG", 
+    `
+    `
+    , "#23bd69", "bf"),
+
     new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-icon.PNG", 
     `
     <div class="paragraph">
@@ -134,7 +140,8 @@ export default [
     </div>
 
 
-    `, "#23bd69", "second"),
+    `, "#23bd69", "beam"),
+
     new ProjectData("beatdown", "BeatDown", "img/projects/Beatdown-icon.png", `
     <div class="paragraph">
         <strong>BeatDown</strong> is a 2D rhythm game led by <a href="https://www.drewbusch.com/">Drew Busch</a> and developed in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
@@ -178,6 +185,7 @@ export default [
     <img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay2.webp" alt="BeatDown Gameplay" />
     </div>
     `, "#5a78af"),
+
     new ProjectData("gunne monke", "Agent Gunne", "img/projects/GunneMonke-icon.jpg", `
     <div class="paragraph">
         <strong>Agent Gunne</strong> (or <strong>Gunne Monke</strong>) is a game I worked on as part of the Game Design class (CS 4455) at Georgia Tech. 
@@ -223,6 +231,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/AgentGunne/AgentGunneGameplay2.png" alt="Agent Gunne Gameplay" />
     </div>
     `, "#383838"),
+
     new ProjectData("project-4", "One Way Out", "img/projects/OneWayOut-icon.PNG", `
     <div class="paragraph">
     <strong>One Way Out</strong> was developed entirely in C and runs on the GBA. The game was playtested and 
@@ -271,6 +280,7 @@ export default [
         provide in allowing developers to focus on design decisions over implementation details. 
     </div>
     `, "#e80fb7"),
+
     new ProjectData("project-5", "Doggy Disk", "img/projects/DoggyDisk-icon.webp", `
     <div class="paragraph">
         <strong>Doggy Disk</strong> was developed in 48 hours as part of the Georgia Tech VGDev Summer Game Jam with the theme "All Around You".

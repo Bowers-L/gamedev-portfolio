@@ -124,17 +124,24 @@ filter: brightness(120%);
   .high {
     grid-row-end: span 2;
   }
-  .first {
+  .slider {
     grid-column-end: span 2;
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: span 2;
   }
 
-  .second {
+  .bf {
     grid-column-end: span 2;
     grid-column-start: 3;
     grid-row-start: 1;
+    grid-row-end: span 2;
+  }
+
+  .beam {
+    grid-column-end: span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
     grid-row-end: span 2;
   }
 }
