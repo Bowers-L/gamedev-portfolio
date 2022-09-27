@@ -2,12 +2,7 @@
   <div>
 
     <div style="margin-bottom: 30px;">
-        <h1>Greetings!</h1> 
-        
-        <h3>My name is <strong>Logan Bowers</strong>. I am a software engineer who makes games. I primarily specialize in gameplay and tools engineering, but also have experience 
-        programming graphics, shaders, AI, and UI. I am really excited to show you my website, and I hope you enjoy your stay here!</h3><br>
-
-        <h3>Feel free to check out the projects I've worked on below. I'll still be here when you get back.</h3>
+        <h2>This is a list of all the projects I have worked on, whether currently or previously</h2>
     </div>
 
     <ProjectsList v-bind:projects="projects" />

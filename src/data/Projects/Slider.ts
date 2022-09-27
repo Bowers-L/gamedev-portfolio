@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("slider", "Featured Project: Slider", "img/projects/Slider-icon.PNG", 
+export default new ProjectData("slider", "Featured Project: Slider", "img/projects/Slider-main.png", 
 `
 <div class="paragraph">
  <strong>Slider</strong> is a game originally developed by <a href="https://randomerz.itch.io/" target="_blank">Daniel Carr</a> as part of the 2021 GMTK Game Jam in the summer. It placed 16th out of thousands of entries in the jam. The original game featured a 2D top-down game world in which the player

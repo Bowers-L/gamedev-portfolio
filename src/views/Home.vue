@@ -4,9 +4,9 @@
     <div style="margin-bottom: 30px">
         <h1 style="text-align: center">Greetings!</h1> 
         
-        <h3 style="text-align: center">My name is <strong>Logan Bowers</strong>. I am a software engineer who makes games.</h3><br>
+        <h3 style="text-align: center">My name is <b>Logan Bowers</b>. I am a software engineer who makes games.</h3><br>
 
-        <h2 style="text-align: center">Feel free to check out the projects I've worked on below. I'll still be here when you get back.</h2>
+        <h1 style="text-align: center">Featured Projects</h1>
     </div>
 
     <div>

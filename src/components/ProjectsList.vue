@@ -1,21 +1,24 @@
 <template>
-    <div>
+    <div class="align-self">
       <div class="projects-list">
-        <template v-for="project in projects">
-          <div
-            :key="project.id"
+        <div style="flex: 1" v-for="project in projects" v-bind:key="project.id">
+            <div
+              key="project.id"
               @click="showDetails(project)"
               class="project-item"
               :class=project.styleClass>
-            <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
-            </div>
-            <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+
+              <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
+              </div>
+
+              <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
                   {{ project.name }}
                 </div>
-              </div>
-          </div>
-        </template>
+              </div> 
+
+            </div>
+        </div>
       </div>
 
       <ProjectDetailsOverlay
@@ -66,6 +69,10 @@ export default Vue.extend({
 
 <style scoped>
 
+.container {
+  align-self: center;
+}
+
 .project-item {
   height: 300px;
   margin-bottom: 20px;
@@ -105,8 +112,13 @@ filter: brightness(120%);
 
 @media only screen and (min-width: 620px){
   .projects-list {
-    align-content: center;
+
     max-width: 900px;
+
+    /* display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; */
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -116,21 +128,14 @@ filter: brightness(120%);
 
   .project-item {
     margin: 0px;
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
 
   .wide {
     grid-column-end: span 2;
   }
   .high {
-    grid-row-end: span 2;
-  }
-
-  .beam {
-    grid-column-end: span 2;
-    grid-column-start: 2;
-    grid-row-start: 3;
     grid-row-end: span 2;
   }
 }

@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-icon.PNG", 
+export default new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-logo.PNG", 
 `
 <div class="paragraph">
  <strong>Beam</strong> is a 3D first person puzzle game developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
