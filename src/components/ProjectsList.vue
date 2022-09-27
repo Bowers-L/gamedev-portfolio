@@ -105,11 +105,13 @@ filter: brightness(120%);
 
 @media only screen and (min-width: 620px){
   .projects-list {
+    align-content: center;
     max-width: 900px;
+
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(250px, auto);
+    grid-gap: 20px;
   }
 
   .project-item {
@@ -124,19 +126,6 @@ filter: brightness(120%);
   .high {
     grid-row-end: span 2;
   }
-  .slider {
-    grid-column-end: span 2;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: span 2;
-  }
-
-  .bf {
-    grid-column-end: span 2;
-    grid-column-start: 3;
-    grid-row-start: 1;
-    grid-row-end: span 2;
-  }
 
   .beam {
     grid-column-end: span 2;
@@ -145,7 +134,5 @@ filter: brightness(120%);
     grid-row-end: span 2;
   }
 }
-
-
 
 </style>

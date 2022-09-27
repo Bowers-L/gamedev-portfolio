@@ -8,7 +8,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'Root',
-    component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Home.vue')
   },
   {
     path: '/resume',
@@ -20,12 +20,13 @@ const routes: Array<RouteConfig> = [
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
-  
+
   {
-    path: '/other-projects',
-    name: 'Other Projects',
-    component: () => import(/* webpackChunkName: "about" */ '../views/OtherProjects.vue')
+    path: '/game-projects',
+    name: 'Game Projects',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
   },
+  
   {
     path: '/contact',
     name: 'Contact',
