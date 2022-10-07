@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-logo.PNG", 
+export default new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-logo.png", 
 `
 <div class="paragraph">
  <strong>Beam</strong> is a 3D first person puzzle game developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
@@ -24,7 +24,7 @@ Play the game <a href=https://l-cpp.itch.io/beam target="_blank">here!</a>
 </div>
 
 <div class="paragraph center">
-    <iframe class="youtube" src="https://www.youtube.com/embed/Mg_dVNZKB9U" frameborder="0" allowfullscreen></iframe>
+    <iframe class="youtube" src="https://www.youtube.com/embed/Mg_dVNZKB9U?autoplay=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="paragraph">
