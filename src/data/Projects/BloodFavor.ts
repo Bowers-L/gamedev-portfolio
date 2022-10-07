@@ -3,7 +3,8 @@ import ProjectData from '@/data/ProjectData.ts'
 export default new ProjectData("blood-favor", "A current project: Blood Favor", "img/projects/BloodFavor-icon.PNG", 
 `
 <div class="paragraph">
- <strong>Blood Favor</strong> is currently being developed and led by <a href=https://www.drewbusch.com/>Drew Busch</a> as part of VGDev's Fall 2022 Lineup.<br><br>
+ <strong>Blood Favor</strong> is currently being developed and led by <a href=https://www.drewbusch.com/>Drew Busch</a> as part of VGDev's Fall 2022 Lineup.
+ I am the gameplay systems sublead ("Technical Lead") for the project.<br><br>
 </div>
 
 <div class = "paragraph">

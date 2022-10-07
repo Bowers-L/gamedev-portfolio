@@ -30,30 +30,50 @@ Play the game <a href=https://l-cpp.itch.io/beam target="_blank">here!</a>
 <div class="paragraph">
     The primary puzzle mechanics of Beam are, of course, the Beams. The grab beam allows the user to control an object within line of sight. However, the catch is that the 
     length of the beam must be constant while in use, meaning that the player can not contract or extend the beam. The swap beam then allows the user to swap places with an object.
-    <br>
+    <br><br>
+</div>
+
+<div class="paragraph center">
+    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
+        <iframe src="gifs/10_07_Beams.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    </div>
+</div>
+
+<div class="paragraph center">
+    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
+        <iframe src="gifs/10_07_Glass.gif" frameborder="0" width="50%" height="50%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    </div>
+</div>
+
+<div class="paragraph center">
+    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
+        <iframe src="gifs/10_07_MovingPlatforms.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    </div>
+</div>
+
+<div>
     I wanted to create an environment in which my team could come up with interesting level ideas and quickly iterate on the designs to create challenging, but fair levels. In order to 
     accomplish this, I outlined a suggested pipeline for creating levels:
     <ul>
-    <li>Concept Design- Come up with the general mechanics/concept that the level will test.</li>
-    <li>Mockup - Draw a top-down view of what the level with look like, including the solution.</li>
-    <li>Greybox - Block out the important level geometry in Unity (we used ProBuilder for this)</li>
-    <li>Playtest - Make sure the level is beatable. Look for alternative solutions.</li>
-    <li>Analyze/Modify - Make changes to the level based on feedback from playtesting. Do more playtesting/modifications if necessary.</li>
-    <li>Polish - Clean up the geometry. Add textures, lighting, narration, etc.</li>
+    <li><b>Concept Design</b>- Come up with the general mechanics/concept that the level will test.</li>
+    <li><b>Mockup</b> - Draw a top-down view of what the level with look like, including the solution.</li>
+    <li><b>Greybox</b> - Block out the important level geometry in Unity (we used ProBuilder for this)</li>
+    <li><b>Playtest</b> - Make sure the level is beatable. Look for alternative solutions.</li>
+    <li><b>Analyze/Modify</b> - Make changes to the level based on feedback from playtesting. Do more playtesting/modifications if necessary.</li>
+    <li><b>Polish</b> - Clean up the geometry. Add textures, lighting, narration, etc.</li>
     </ul>
-    Playtesting during development was essential for gauging how difficult the puzzles were and how balanced the player felt compared to their environment. 
-    If the player's abilities were too powerful, then it would be hard to come up with intriguing puzzles without them feeling forced. 
-    For example, originally, objects would retain their momentum when the beam was released, however this became too powerful, so the momentum needed to be capped in order
-    to prevent players from throwing cubes across the map and immediately swapping to them. Another way to restrict the player's movement was to add special types of glass that prevented the player from using specific beam types.
+    Playtesting during development was essential for gauging how difficult the puzzles were and how balanced the player felt compared to their environment. <br><br>
 
-    <br>
+    One of the biggest challenges was creating puzzles that didn't softlock. In the end, we implemented a strategy used by other puzzle 
+    games such as <a href=https://store.steampowered.com/app/257510/The_Talos_Principle><b>The Talos Principle</b></a> and <a href=https://store.steampowered.com/app/736260/Baba_Is_You><b>Baba is You</b></a>, which
+    is to have a dedicated reset button to reset the level at any time.
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay1.png" alt="Gameplay of Beam"/>
-        <img class="pc-screenshot" src="img/projects/Beam/BeamGameplay2.png" alt="Gameplay of Beam" />
-    </div>
+    <br><br>
+
     Overall, I gained an intuitive understanding of what makes a game fun (specifically in the puzzle genre). It is important to create simple mechanics with a complex ceiling and to construct the environment in a way 
     that restricts player choice just enough to allow for creative problem solving. The biggest challenge for the team and myself was definitely making levels that are the right amount of difficult while still being fun to solve.
+    <br><br>
+    
     Nonetheless, it was a rewarding experience, and I definitely learned a thing or two about design that I can use to make even better games in the future. 
 
 </div>
