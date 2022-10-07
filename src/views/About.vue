@@ -4,43 +4,76 @@
     <h1>Something About Me</h1>
     <div class="column">
 
-    <div>
-      So you want to learn more about me? Well then, I hope I don't disappoint.
-    </div><br>
+      <div>
+        So you want to learn more about me? Well then, I shouldn't disappoint.
+      </div><br>
 
+      <div>
+        <h1>FAQ</h1>
+      </div>
 
-    <div>
-    <b>Waaait a minute ... Who ARE you?</b>
-    </div>
+      <div>
+        <h2>Waaait a minute ... Who ARE you?</h2>
 
-    <div>
-      I am a BSMS Computer Science student game-dev at Georgia Tech. I will graduate with a Bachelors in Computer Science in December 2022 and plan to graduate with a Masters in December 2023.
-      In between classes, I am an active member of the VGDev (Video Game Development) club, where I lead and contribute to games, primarily as a programmer. I aim to employ best software engineering
-      practices, while navigating the volatile, but exciting world of game development.<br>
-    </div><br>
+        I am <b>Logan Bowers</b>, a <b>BSMS Computer Science student game-dev</b> at <b>Georgia Tech</b>. I will graduate with a <b>Bachelors in Computer Science</b> in December 2022 and plan to graduate with a <b>Masters</b> in December 2023.<br><br>
 
-    <div>
-      I believe in growth through connection. I strive to learn something new from every person I meet and every experience I encounter. 
-      I understand the delicate balance between deep, focused work and being open to new perspectives by being attentive and listening to other people. 
-      It is this balance that shapes every action I take both in the professional world and outside of it. 
-    </div><br>
+        I am an active member of the VGDev (Video Game Development) club, where I've led and contributed to multiple games, primarily as a <b>tools and gameplay programmer</b>, but also sometimes as a <b>music composer</b>.<br>
+      </div><br>
 
-    <div>
-      As a software engineer and a game developer, I take the time to learn how to do things the right way, and have become a reliable asset on the teams I have worked on. 
-      I value sensibility and simplicity, and strive to adopt techniques, styles, and practices that make it as easy as possible for people to work with me. 
-      My programming style has 3 pillars: readability, extendibility, and maintainability, and I pull from methodologies such as “clean code”, SOLID, DRY, Object-Oriented Design Patterns, etc. in order to enhance this style. 
-      By adopting this mindset, I observed an increase in team satisfaction, as well as the ability to maintain, debug, and add new features to large projects.
-    </div><br>
+      <div>
+        <h2>What makes you unique?</h2>
 
-    <div>
-      While in college, I’ve worked with teams of people from various technical and non-technical backgrounds such as programmers, artists, designers, composers, and producers among others.
-      During Fall 2021, I got to lead a team of developers to bring my own game to life, Beam. This was an exhillerating experience, as I got the chance to develop better project management skills alongside other team
-      leads. The most recent and most ambitious project I’m working on right now is Slider, a game that is getting released in Fall 2022 on Steam! I became a primary contributor and leader of the programming effort on the team, and It was really exciting to see how far I’d come in just a few short years!
-      I really enjoy learning from other people and seeing all the great things we can accomplish together.
-    </div><br>
+        As a software engineer and a game developer, I value <b>sensibility</b>, <b>simplicity</b>, and <b>growth through collaboration</b> with other people.
+        I strive to adopt techniques, styles, and practices that make it <b>as easy as possible</b> for people to work with me.<br><br>
 
+        I have a <b>passion</b> to learn and employ the <b>best software engineering practices</b>, even while navigating the volatile, but exciting world of game development. 
+        My programming style has 3 pillars: <b>readability</b>, <b>extendibility</b>, and <b>maintainability</b>.<br><br>
+        
+        By adopting this mindset, I have become a <b>reliable</b> asset on teams, and found it easier to <b>maintain</b>, <b>debug</b>, and <b>add new features to large projects</b>.<br><br>
+      </div><br>
 
+      <div>
+        <h2>Besides all that, what are your interests?</h2>
 
+        <h3>I 🧡 Music</h3>
+        <div>
+          I played <b>Piano through all of grade school (that's 12 years!)</b>, as well as <b>Trumpet for 8 years</b>. I really enjoy playing classical pieces on the Piano, as well as improvising my own melodies. I also did marching band and concert band throughout High School as a trumpet player, and was a part of the 
+          <b>Georgia Tech Marching Band</b> during <b>Fall 2019</b>, which was an exhilerating experience.<br><br>
+          
+          I also enjoy <b>composing music</b>. I have worked on music for multiple VGDev games such as:
+          <ul>
+            <li><b>Willow</b> by <a href=https://reverienest.github.io/reverienest/>Yoon Lee</a><br>
+            <li><b>Light Disk VR</b> by <a href=https://www.linkedin.com/in/mromanenko/>Mikhail Romanenko</a></li>
+            <li><b>Melody Star</b> by <a href=https://www.linkedin.com/in/alice-moh-1b4799163/>Alice Moh</a></li>
+          </ul>
+        </div>
+
+        <h3>I ❤️ Gaming</h3>
+        <div>This is an obvious one, but sometimes you just have to enjoy the fruits of others who partake in your craft in order to achieve a higher appretiation for it.
+        I've played games from a wide variety of genres from <b>AAA</b> to <b>indie titles</b>. Some of my <b>favorite games</b> include:
+        <ul>
+          <li><b>Overwatch</b></li>
+          <li><b>Dark Souls</b> (all of them)</li>
+          <li><b>Undertale</b> (Fun Fact: this one inspired me to make games in HS)</li>
+          <li><b>Hollow Knight</b></li>
+          <li><b>Celeste</b></li>
+          <li><b>Ori and the Blind Forest</b></li>
+          <li><b>Guitar Hero</b></li>
+          <li>Various Puzzle Games (<b>Portal</b>, <b>The Talos Principle</b>, <b>The Witness</b>, <b>Baba is You</b>)</li>
+          <li>and of course, <b>Tetris</b></li>
+        </ul>
+        </div>
+
+        <h3>I 💛 Sports</h3>
+        <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis, Ping-Pong, Racquetball, and any other sport that involves bouncing balls back and forth.</div>
+
+        <!--
+        <h3>I 💚 People</h3>
+        <div>I like seeing where other people come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
+        be the side character can be both humbling and rewarding.
+        </div>
+        -->
+      </div><br>
     </div>
 
     <div class="column">
@@ -73,7 +106,7 @@
     </div>
     -->
 
-    <div style="clear:both"></div>
+  <div style="clear:both"></div>
   </div>
 </template>
 
@@ -86,7 +119,7 @@
 
 .container {
   margin-bottom: 80px;
-  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .paragraph {
   display: inline-block;

@@ -1,11 +1,13 @@
 <template>
-  <div>
+  <div class="container">
 
-    <div style="margin-bottom: 30px; background-color: rgba(0.5, 0.5, 0.5, 0.5)">
+    <div style="margin-bottom: 30px;">
         <h2>This is a list of all the projects I have worked on, whether currently or previously</h2>
     </div>
 
-    <ProjectsList v-bind:projects="projects" />
+    <div style="margin-left: 50px;">
+      <ProjectsList v-bind:projects="projects" />
+    </div>
   </div>
 </template>
 
@@ -26,3 +28,12 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style scoped>
+  .container {
+      display: flexbox;
+      justify-content: center;
+      padding: 10px;
+      background-color:rgba(0.5, 0.5, 0.5, 0.5);
+  }
+</style>

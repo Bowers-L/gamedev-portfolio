@@ -26,7 +26,7 @@
       </li>
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
-        <a href="https://l-cpp.itch.io/" target="_blank">l-cpp.itch.io</a> (in the works)
+        <a href="https://l-cpp.itch.io/" target="_blank">l-cpp.itch.io</a>
       </li>
 
       <li>

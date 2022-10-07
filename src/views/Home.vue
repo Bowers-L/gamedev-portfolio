@@ -9,7 +9,7 @@
         <h1 style="text-align: center">Featured Projects</h1>
     </div>
 
-    <div>
+    <div class="project-list">
         <ProjectsList v-bind:projects="projects"/>
     </div>
 
@@ -44,5 +44,12 @@ export default Vue.extend({
         justify-content: center;
         padding: 10px;
         background-color:rgba(0.5, 0.5, 0.5, 0.5);
+    }
+
+    .project-list {
+      padding-top: 40px;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-bottom: 40px;
     }
 </style>

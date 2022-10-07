@@ -27,6 +27,7 @@ export default Vue.extend({
 
 .header {
   width: 100%;
+  background-color: rgba(64, 64, 64, 0.5);
 }
 
 .nav-bar {

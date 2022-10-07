@@ -3,8 +3,8 @@
     <div v-if="visible">
       <div class="overlay">
       </div>
-      <div class="dialog" :style="{ 'background-color': color }">
-        <h1 class="dialog-title">{{ title }}</h1>
+      <div class="dialog">
+        <h1 class="dialog-title" :style="{ 'background-color': color }">{{ title }}</h1>
         <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
@@ -55,7 +55,7 @@ export default Vue.extend({
   z-index: 11;
   margin: 20px;
   padding-bottom: 10px;
-  color:white;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 iframe {
@@ -74,8 +74,8 @@ h1.dialog-title {
 }
 
 .dialog-content {
-  background-color: #fcfcfc;
-  color: #696969;
+  background-color: rgba(64, 64, 64, 1);
+  color: rgba(200, 200, 200, 1);
 }
 .dialog-close {
   position: absolute;
@@ -116,6 +116,5 @@ a.dialog-close-button {
     padding: 40px;
   }
 }
-
 
 </style>
