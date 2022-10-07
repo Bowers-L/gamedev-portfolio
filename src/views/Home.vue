@@ -13,6 +13,10 @@
         <ProjectsList v-bind:projects="projects"/>
     </div>
 
+    <div>
+        <h2 style="text-align: center"><b>Check out my full list of <router-link to="/game-projects">Projects</router-link></b></h2>
+    </div>
+
   </div>
 </template>
 

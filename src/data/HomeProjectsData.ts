@@ -6,7 +6,7 @@ import Beam from '@/data/Projects/Beam.ts'
 
 
 export default [
-  Slider,
   BloodFavor,
+  Slider,
   Beam,
 ];

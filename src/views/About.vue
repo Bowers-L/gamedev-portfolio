@@ -8,10 +8,14 @@
       So you want to learn more about me? Well then, I hope I don't disappoint.
     </div><br>
 
+
+    <div>
+    <b>Who even are you?</b>
+    </div>
+
     <div>
       I am a BSMS Computer Science student game-dev at Georgia Tech. I will graduate with a Bachelors in Computer Science in December 2022 and plan to graduate with a Masters in December 2023.
-      In between classes, I am an active member of the VGDev (Video Game Development) club, where I lead and contribute to games, primarily as a programmer. I primarily specialize in gameplay and tools engineering, but also have experience 
-        programming graphics, shaders, AI, and UI. I am really excited to show you my website, and I hope you enjoy your stay here! I aim to employ best software engineering
+      In between classes, I am an active member of the VGDev (Video Game Development) club, where I lead and contribute to games, primarily as a programmer. I aim to employ best software engineering
       practices, while navigating the volatile, but exciting world of game development.<br>
     </div><br>
 

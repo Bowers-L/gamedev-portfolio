@@ -16,7 +16,7 @@
   
         <h2>Summary</h2> 
         <h4><b>Logan Bowers</b></h4>
-        <i>Game developer with a flexible skillset and a passion for solving complex problems.</i>
+        <i>Game Developer motivated to create simple/communicable solutions to complex problems.</i>
         <ul>
         <li>loganmbowers@gmail.com</li>
         <li>(404) 384-1028 (mobile)</li>
