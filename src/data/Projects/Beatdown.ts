@@ -28,7 +28,7 @@ Project Info:
     and by killing opposing players. The player is also awarded more charge for "moving" rather than "charging". This incentivizes the player to move around the map more rather than waiting in
     one corner. By giving each individual shape a different ultimate, the player is awarded a variety in playstyle based on their character choice. For example, the circle is incentivized to follow
     other players closely since it's ultimate decimates players in its immediate vicinity, whereas the square wants to use powerups to limit other players' space and snipe them from farther away.
-    <br>
+    <br><br>
     In terms of implementation, I took advantage of Unity's Scriptable Objects to easily tune values for balance purposes. I also used object oriented design to create separate coroutines for each ultimate
     while providing an interface to the main player scripts. 
 </div>

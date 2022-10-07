@@ -11,13 +11,11 @@ import DoggyDisk from '@/data/Projects/DoggyDisk.ts'
 import OneWayOut from '@/data/Projects/OneWayOut.ts'
 import TetrisPi from '@/data/Projects/TetrisPi.ts'
 export default [
-    Slider,
     BloodFavor,
+    Slider,
     Beam,
-    OutOfPocket,
     Beatdown,
     GunneMonke,
     DoggyDisk,
     OneWayOut,
-    TetrisPi,
 ];
