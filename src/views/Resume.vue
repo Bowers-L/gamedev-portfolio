@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class = "container">
     
     <h1>Resume</h1>
 
@@ -122,10 +122,12 @@
           <h3>I 💛 Sports</h3>
           <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis, Ping-Pong, Racquetball, and any other sport that involves bouncing balls back and forth.</div>
 
+          <!--
           <h3>I 💚 People</h3>
           <div>I like seeing where other people come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
           be the side character can be both humbling and rewarding.
           </div>
+          -->
         </div>
 
       </div>  <!-- column -->
@@ -134,7 +136,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Vue from "vue";
 import SkillRate from "@/components/SkillRate.vue";
 
@@ -168,6 +170,10 @@ h4 {
   padding: 0px;
   padding-top: 15px;
   font-style: italic;
+}
+
+.container {
+  background-color:rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .column {

@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div style="margin-bottom: 30px;">
+    <div style="margin-bottom: 30px; background-color: rgba(0.5, 0.5, 0.5, 0.5)">
         <h2>This is a list of all the projects I have worked on, whether currently or previously</h2>
     </div>
 

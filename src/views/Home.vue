@@ -42,5 +42,7 @@ export default Vue.extend({
     .container-centered {
         display: flexbox;
         justify-content: center;
+        padding: 10px;
+        background-color:rgba(0.5, 0.5, 0.5, 0.5);
     }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-bottom: 80px;">
+  <div class = "container">
     
     <h1>Something About Me</h1>
     <div class="column">
@@ -10,7 +10,7 @@
 
 
     <div>
-    <b>Who even are you?</b>
+    <b>Waaait a minute ... Who ARE you?</b>
     </div>
 
     <div>
@@ -83,6 +83,11 @@
 
 
 <style scoped>
+
+.container {
+  margin-bottom: 80px;
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
 .paragraph {
   display: inline-block;
   max-width: 700px;

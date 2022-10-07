@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class = "container">
     
     <h1>Let's get in touch</h1>
 
@@ -44,6 +44,11 @@
 </template>
 
 <style scoped>
+
+.container {
+  background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
 ul {
   list-style: none;
   padding-inline-start: 0px;

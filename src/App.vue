@@ -89,6 +89,8 @@ h1 {
   #app {
     text-align: left;
     line-height: 1.8em;
+    background-image: url(https://thumbs.gfycat.com/RemoteImpishBlackbear-size_restricted.gif);
+    background-size: cover;
   }
 
   h1 {
