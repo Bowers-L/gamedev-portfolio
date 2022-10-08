@@ -22,6 +22,11 @@ Project Info:
     <iframe class="youtube" src="https://www.youtube.com/embed/8H40PtNLm68" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay1.webp" alt="BeatDown Gameplay" />
+    <img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay2.webp" alt="BeatDown Gameplay" />
+</div>
+
 <div class="paragraph">
     My primary contribution to BeatDown was the design/implementation of the ultimate system. I wanted to design the system such that it incentivizes optimal gameplay while 
     feeling balanced. The player gains an amount of ultimate charge by moving in conjunction with the beat, however, the player can also gain bonus charge by maintaining note streaks
@@ -35,11 +40,5 @@ Project Info:
 
 <div class="notice">
 Play the game <a href=https://abnormal202.itch.io/beatdown target="_blank">here</a>
-</div>
-
-
-<div class="paragraph center">
-<img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay1.webp" alt="BeatDown Gameplay" />
-<img class="pc-screenshot" src="img/projects/BeatDown/BeatDownGameplay2.webp" alt="BeatDown Gameplay" />
 </div>
 `, "#5a78af")

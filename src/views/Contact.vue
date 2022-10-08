@@ -45,6 +45,10 @@
 
 <style scoped>
 
+a {
+  color: #eee
+}
+
 .container {
   background-color: rgba(0.5, 0.5, 0.5, 0.5);
 }

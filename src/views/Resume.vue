@@ -45,6 +45,7 @@
           <SkillRate name="C#" :rate="5" />
           <SkillRate name="Java" :rate="5" />
           <SkillRate name="Python" :rate="4" />
+          <SkillRate name="Rust" :rate="4" />
           <SkillRate name="GLSL" :rate="3" />
           <SkillRate name="HLSL" :rate="3" />
         </div>
@@ -53,21 +54,22 @@
           <h3>Engines</h3>
           <SkillRate name="Unity" :rate="5" />
           <SkillRate name="Java Processing" :rate="4" />
-          <SkillRate name="Unreal Engine 4" :rate="3" />
+          <SkillRate name="Unreal Engine" :rate="3" />
+          <SkillRate name="Godot" :rate="3" />
           <SkillRate name="Game Maker" :rate="3" />
         </div>
 
         <div class="skill-set">
           <h3>Tools</h3>
           <SkillRate name="Git (CL)" :rate="5" />
-          <SkillRate name="Trello/Codecks" :rate="4" />
+          <SkillRate name="Trello" :rate="5" />
           <SkillRate name="Open GL" :rate="4" />
-
+          <SkillRate name="Perforce" :rate="3" />
         </div>
 
         <div class="skill-set">
           <h3>Other</h3>
-          <SkillRate name="FL Studio" :rate="4" />
+          <SkillRate name="FL Studio" :rate="5" />
           <SkillRate name="Aseprite" :rate="4" />
           <SkillRate name="Photoshop" :rate="3" />
           <SkillRate name="Blender" :rate="2" />

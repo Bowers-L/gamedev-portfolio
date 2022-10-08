@@ -74,6 +74,9 @@ Project Info:
     </div>
 </div>
 
-Overall, I gained a ton of experience working on this project that I've barely even scratched the surface of. I would love  and it has been a remarkable journey to work with such a talented team of developers. 
+<div class="paragraph">
+    Overall, I gained a ton of experience working on this project that I've barely even scratched the surface of, and I would love to go into a deeper
+    dive on some of these systems in the future. It has been a remarkable journey to work with such a talented team of developers.
+</div>
 </div>
 `, "#23bd69")

@@ -11,7 +11,7 @@
               <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
               </div>
 
-              <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+              <div class="title-bar" :style="{ 'background-color': '#565656' }">
                 <div class="title-text">
                   {{ project.name }}
                 </div>
