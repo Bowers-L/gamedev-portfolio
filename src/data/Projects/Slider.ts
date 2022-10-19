@@ -45,32 +45,32 @@ Project Info:
 </div>
 
 <div class="paragraph center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
-        <iframe src="gifs/04_06_rat_chase.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="gifs/04_06_rat_chase.gif" frameborder="0" width="100%" height="100%" allowfullscreen class="iframe-content gif"></iframe>
     </div>
 </div>
 
 <div class="paragraph center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
-        <iframe src="gifs/10_01_factory_past_crystal.gif" frameborder="0" width="50%" height="50%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="gifs/10_01_factory_past_crystal.gif" frameborder="0" width="100%" height="100%" allowfullscreen class="iframe-content gif"></iframe>
     </div>
 </div>
 
 <div class="paragraph center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
-        <iframe src="gifs/06_11_caves_mossy_sequence.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="gifs/06_11_caves_mossy_sequence.gif" frameborder="0" width="100%" height="100%" allowfullscreen class="iframe-content gif"></iframe>
     </div>
 </div>
 
 <div class="paragraph center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
-        <iframe src="gifs/01_31_artifact_queue.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="gifs/01_31_artifact_queue.gif" frameborder="0" width="100%" height="100%" allowfullscreen class="iframe-content gif"></iframe>
     </div>
 </div>
 
 <div class="paragraph center">
-    <div style="width:100%;height:0px;position:relative;padding-bottom:40%;">
-        <iframe src="gifs/08_15_fezziwig_quest.gif" frameborder="0" width="100%" height="100%" allowfullscreen style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden;"></iframe>
+    <div class="iframe-wrapper">
+        <iframe src="gifs/08_15_fezziwig_quest.gif" frameborder="0" width="100%" height="100%" allowfullscreen class="iframe-content gif"></iframe>
     </div>
 </div>
 

@@ -47,9 +47,9 @@ export default Vue.extend({
     }
 
     .project-list {
-      padding-top: 40px;
-      padding-left: 150px;
-      padding-right: 150px;
-      padding-bottom: 40px;
+      padding-top: 5%;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-bottom: 5%;
     }
 </style>

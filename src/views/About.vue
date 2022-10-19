@@ -24,12 +24,13 @@
         <h2>What makes you unique?</h2>
 
         As a software engineer and a game developer, I value <b>sensibility</b>, <b>simplicity</b>, and <b>growth through collaboration</b> with other people.
-        I strive to adopt techniques, styles, and practices that make it <b>as easy as possible</b> for people to work with me.<br><br>
+        I strive to adopt techniques, styles, and practices that make it <b>as easy as possible</b> for people to work with me<br><br>
 
         I have a <b>passion</b> to learn and employ the <b>best software engineering practices</b>, even while navigating the volatile, but exciting world of game development. 
         My programming style has 3 pillars: <b>readability</b>, <b>extendibility</b>, and <b>maintainability</b>.<br><br>
         
-        By adopting this mindset, I have become a <b>reliable</b> asset on teams, and found it easier to <b>maintain</b>, <b>debug</b>, and <b>add new features to large projects</b>.<br><br>
+        I approach programming with a <b>growth mindset</b>, similar to how I approach other parts of life. By adopting this mindset, 
+        I have become a <b>reliable</b> asset on teams, and found it easier to <b>maintain</b>, <b>debug</b>, and <b>add new features to large projects</b>.<br><br>
       </div><br>
 
       <div>
