@@ -22,7 +22,7 @@
       </li>
       <li>
         <i class="fab fa-github fa-lg fa-fw"></i>
-        <a href="https://github.com/me" target="_blank">github.com/Bowers-L</a>
+        <a href="https://github.com/Bowers-L" target="_blank">github.com/Bowers-L</a>
       </li>
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
