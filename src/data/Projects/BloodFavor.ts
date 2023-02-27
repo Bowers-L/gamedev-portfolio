@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("blood-favor", "A current project: Blood Favor", "img/projects/BloodFavor-icon.PNG", 
+export default new ProjectData("blood-favor", "Blood Favor", "img/projects/BloodFavor-icon.PNG", 
 `
 <div class="paragraph">
  <strong>Blood Favor</strong> was developed and led by <a href=https://www.drewbusch.com/>Drew Busch</a> as part of VGDev's Fall 2022 Lineup.
