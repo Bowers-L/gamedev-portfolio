@@ -2,6 +2,7 @@
   <div class="container">
 
     <div style="margin-bottom: 30px;">
+        <h2>This Page is a WIP</h2>
         <h3>These are games or graphics projects that I have made (mostly individually) without using a game engine!</h3>
     </div>
 
