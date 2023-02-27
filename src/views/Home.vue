@@ -22,7 +22,7 @@
     </div>
 
     <h3 style="text-align: center"><b>"Let your ambition be unmatched, and your passion relentless, <br>
-    but let your actions be calm and precise." - Me</b></h3>
+    but let your actions be calm and precise."</b></h3>
 
   </div>
 </template>
