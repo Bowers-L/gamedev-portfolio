@@ -3,10 +3,22 @@ import ProjectData from '@/data/ProjectData.ts'
 export default new ProjectData("slider", "Favorite Project: Slider", "img/projects/Slider-main.png", 
 `
 <div class="paragraph">
- <strong>Slider</strong> is a game getting released <b>on Steam</b> next February! The current project aims to release a fun exploration game with 9 polished and playable areas, equating to about 5+ hours of content.
- It was originally developed by <a href="https://randomerz.com" target="_blank">Daniel Carr</a> as part of the 2021 GMTK Game Jam in the summer. It placed 16th out of thousands of entries in the jam.<br><br>
+ <strong>Slider</strong> is a game led by 
+ <a href="https://randomerz.com" target="_blank">Daniel Carr</a> 
+ and getting released 
+ <a href="https://store.steampowered.com/app/1916890/Slider/" target="_blank">On Steam</a> (eventually).<br><br>
+
+ Slider is by far the most high profile game project I've worked on (as of Spring 2023), 
+ having been demoed at multiple local and GT events, including <b>Dreamhack Atlanta 2022</b>, and being recently selected as an <b>IGF finalist</b> for best student game <b>@ GDC 2023</b>.<br><br>
+
+That being said, the game is also the largest and most complex game I've worked on, and it has been quite the journey developing key gameplay systems that are used in several of the game's areas.
+With both an Ocean and a Mountain of content (literally), I have probably gained more experience working on this project than the rest of my projects combined, especially with working in such a large team for a student project.<br><br>
 
 <b>A demo for the game was released in June 2022, and is downloadable from steam (link below).</b>
+</div>
+
+<div class="notice">
+<a href=https://store.steampowered.com/app/1916890/Slider/ target="_blank"><b>Steam Link</b></a><br>
 </div>
 
 <div class = "paragraph">
@@ -16,32 +28,29 @@ Project Info:
 <li>Genre: 2D Top Down Puzzle Exploration</li>
 <li>Engine: Unity/C#</li>
 <li>Team Size: 30+</li>
-<li>Contribution: Gameplay/AI/Tools Programmer, Shader Engineer, Level Design</li>
+<li>Contribution: Graphics/Gameplay/AI/Tools Programmer, Shader Engineer, Level Design</li>
 <li>Timeframe: Spring 2022 to Present</li>
 </ul>
 </div>
 
-<div class="notice">
-<a href=https://store.steampowered.com/app/1916890/Slider/ target="_blank"><b>Steam Link</b></a><br>
-</div>
-
 <div class="paragraph center">
-    <iframe class="youtube" src="https://www.youtube.com/embed/Fcmti31u5t4?autoplay=1" frameborder="0" allowfullscreen></iframe>
+    <iframe class="youtube" src="https://www.youtube.com/embed/dihp4vlx4gA?autoplay=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="paragraph">
-    I was responsible for the development of multiple gameplay systems and tools in the game, including (but not limited to):
+    I was responsible for the development of multiple gameplay systems and tools, including (but not limited to):
     <ul>
         <li>A Move Queue System with Interrupts</li>
-        <li>Dynamic Lighting</li>
+        <li>Custom Dynamic Lighting with Shaders/Light Maps.</li>
         <li>Custom Pathfinding for NPCs in a 2D Tilemap</li>
         <li>AI Behaviour Trees and Steering (The Infamous Rat)</li>
         <li>An NPC Event-Based Dialogue System with designer customization</li>
         <li>An Electricity/Power gameplay system with a dynamic graph structure</li>
+        <li>Countless bug fixes, optimizations, and refactors over the span of a year for a growing codebase</li>
     </ul>
 
-    In addition to all of these systems, I helped refactor and debug a growing codebase 
-    and worked with a group of excellent game designers, programmers, and artists to deliver a polished and thoughtful gameplay experience, the results of which are below.
+    Each one of these bullets really deserves its own page, and I would love to go into a deeper
+    dive on some of these systems in the future. For now, enjoy the results of this work below:
 </div>
 
 <div class="paragraph center">
@@ -74,9 +83,6 @@ Project Info:
     </div>
 </div>
 
-<div class="paragraph">
-    Overall, I gained a ton of experience working on this project that I've barely even scratched the surface of, and I would love to go into a deeper
-    dive on some of these systems in the future. It has been a remarkable journey to work with such a talented team of developers.
-</div>
+It has been a remarkable journey to work with such a talented team of developers. I am incredibly grateful to have worked with such a team. Special thanks to Daniel (aka Boomo) for even making this project possible.
 </div>
 `, "#23bd69")
