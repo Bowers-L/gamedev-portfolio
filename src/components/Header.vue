@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link>
       <router-link to="/game-projects">Games</router-link>
       <router-link to="/game-jams">Game Jams</router-link>
+      <router-link to="/engineless">Engineless%</router-link>
       <router-link to="/about">About Me</router-link>
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>

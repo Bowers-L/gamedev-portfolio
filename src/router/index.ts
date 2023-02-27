@@ -32,6 +32,12 @@ const routes: Array<RouteConfig> = [
     name: 'Game Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
   },
+
+  {
+    path: '/engineless',
+    name: 'Engineless',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Engineless.vue')
+  },
   
   {
     path: '/contact',

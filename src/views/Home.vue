@@ -18,7 +18,8 @@
     </div>
 
     <div>
-        <h2 style="text-align: center"><b>Check out my full list of <router-link to="/game-projects">Projects</router-link></b></h2>
+        <h2 style="text-align: center"><b>Check out my full list of <router-link to="/game-projects">Games</router-link> and <router-link to="/game-jams">Game Jams</router-link>, <br>
+        as well as <router-link to="/engineless">Game Engine and Graphics Projects</router-link></b></h2>
     </div>
 
     <h3 style="text-align: center"><b>"Let your ambition be unmatched, and your passion relentless, <br>
@@ -51,11 +52,6 @@ export default Vue.extend({
         justify-content: center;
         padding: 10px;
         background-color:rgba(0.5, 0.5, 0.5, 0.5);
-    }
-
-    .paragraph {
-      text-align: center;
-      font-size: 18px;
     }
 
     .project-list {
