@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("dive", "A Project I'm Leading: Dive", "img/projects/Dive-logo.png", 
+export default new ProjectData("dive", "A Project I'm Leading: Dive", "img/projects/Dive-logo.PNG", 
 `
 <div>
 Coming Soon ...

@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("out-of-pocket", "Out Of Pocket: GMTK 2022", "img/projects/OutOfPocket-logo.PNG", 
+export default new ProjectData("out-of-pocket", "Out Of Pocket: GMTK 2022", "img/projects/OutOfPocket-logo.png", 
 `
 Coming Soon ...
 
