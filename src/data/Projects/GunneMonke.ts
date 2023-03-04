@@ -1,10 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default new ProjectData("gunne monke", "Agent Gunne", "img/projects/GunneMonke-icon.jpg", `
-<div class="paragraph">
-    <strong>Agent Gunne</strong> (or <strong>Gunne Monke</strong>) is a game I worked on as part of the Game Design class (CS 4455) at Georgia Tech. 
-    The game was designed and developed in the span of 6 weeks. I would consider this my first real experience creating a full 3D game with Unity, and it helped
-    shape my experiences creating Unity games later on. 
+<div class="paragraph center">
+    <iframe class="youtube" src="https://www.youtube.com/embed/sNdpHVezyng" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class = "paragraph">
@@ -19,8 +17,14 @@ Project Info:
 </ul>
 </div>
 
-<div class="paragraph center">
-    <iframe class="youtube" src="https://www.youtube.com/embed/sNdpHVezyng" frameborder="0" allowfullscreen></iframe>
+<div class="notice">
+Source code available for download <a href=https://github.com/Bowers-L/BondMonke target="_blank">here!</a>
+</div>
+
+<div class="paragraph">
+    <strong>Agent Gunne</strong> (or <strong>Gunne Monke</strong>) is a game I worked on as part of the Game Design class (CS 4455) at Georgia Tech. 
+    The game was designed and developed in the span of 6 weeks. I would consider this my first real experience creating a full 3D game with Unity, and it helped
+    shape my experiences creating Unity games later on. 
 </div>
 
 <div class="paragraph">
@@ -34,10 +38,6 @@ Project Info:
     <br>
     The main mechanic of the game's boss, "Hugh Mann", pushes the player back and causes them to fall whenever they get hit. This was achieved by
     adding additional states to the player's state machine as well as adding a behaviour script that applies a force pointing away from the hitbox of the boss. 
-</div>
-
-<div class="notice">
-Source code available for download <a href=https://github.com/Bowers-L/BondMonke target="_blank">here!</a>
 </div>
 
 <div class="paragraph center">

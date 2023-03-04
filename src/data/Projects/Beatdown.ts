@@ -1,9 +1,8 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default new ProjectData("beatdown", "BeatDown", "img/projects/Beatdown-icon.png", `
-<div class="paragraph">
-    <strong>BeatDown</strong> is a 2D rhythm game led by <a href="https://www.drewbusch.com/">Drew Busch</a> and developed in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
-    a player shape along a stage grid each time you hit the beat. The game features a charge mechanic that allows you to crush opponents, as well as powerups and ultimates. 
+<div class="paragraph center">
+    <iframe class="youtube" src="https://www.youtube.com/embed/8H40PtNLm68" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class = "paragraph">
@@ -18,8 +17,13 @@ Project Info:
 </ul>
 </div>
 
-<div class="paragraph center">
-    <iframe class="youtube" src="https://www.youtube.com/embed/8H40PtNLm68" frameborder="0" allowfullscreen></iframe>
+<div class="notice">
+Play the game <a href=https://abnormal202.itch.io/beatdown target="_blank">here</a>
+</div>
+
+<div class="paragraph">
+    <strong>BeatDown</strong> is a 2D rhythm game led by <a href="https://www.drewbusch.com/">Drew Busch</a> and developed in Spring 2021 as part of the VGDev Club at Georgia Tech. It has a unique game mechanic in that you are able to move
+    a player shape along a stage grid each time you hit the beat. The game features a charge mechanic that allows you to crush opponents, as well as powerups and ultimates. 
 </div>
 
 <div class="paragraph center">
@@ -36,9 +40,5 @@ Project Info:
     <br><br>
     In terms of implementation, I took advantage of Unity's Scriptable Objects to easily tune values for balance purposes. I also used object oriented design to create separate coroutines for each ultimate
     while providing an interface to the main player scripts. 
-</div>
-
-<div class="notice">
-Play the game <a href=https://abnormal202.itch.io/beatdown target="_blank">here</a>
 </div>
 `, "#5a78af")

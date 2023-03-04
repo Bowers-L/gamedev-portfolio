@@ -15,22 +15,22 @@
       <div>
         <h2>Waaait a minute ... Who ARE you?</h2>
 
-        I am <b>Logan Bowers</b>, a <b>BSMS Computer Science student game-dev</b> at <b>Georgia Tech</b>. I will graduate with a <b>Bachelors in Computer Science</b> in December 2022 and plan to graduate with a <b>Masters</b> in December 2023.<br><br>
-
-        I am an active member of the VGDev (Video Game Development) club, where I've led and contributed to multiple games, primarily as a <b>tools and gameplay programmer</b>, but also sometimes as a <b>music composer</b>.<br>
+        I am <b>Logan Bowers</b>, a game developer based in Atlanta, GA.<br>
+        I am an active member of the VGDev (Video Game Development) club at <b>Georgia Tech</b>, where I've led and contributed to a large assortment of game projects, primarily as a <b>programmer</b>, but also sometimes as a Designer or Music Composer.<br>
+        I have a BS in Computer Science and am finishing a Masters in Computer Graphics in Spring 2024, after which I plan to enter the games industry full time.<br>
       </div><br>
 
       <div>
-        <h2>What makes you unique?</h2>
+        <h2>What is this about being a "Software Architect"?</h2>
 
-        As a software engineer and a game developer, I value <b>sensibility</b>, <b>simplicity</b>, and <b>growth through collaboration</b> with other people.
-        I strive to adopt techniques, styles, and practices that make it <b>as easy as possible</b> for people to work with me<br><br>
+        Thank you for reading my resume! I take pride in developing software (including games) that is modular, easily extendable, easy to collaborate on, and easy to debug. 
+        I believe that regardless of the size of the codebase, adding new features should be a function of the feature complexity ONLY, not the codebase size.<br><br>
 
-        I have a <b>passion</b> to learn and employ the <b>best software engineering practices</b>, even while navigating the volatile, but exciting world of game development. 
-        My programming style has 3 pillars: <b>readability</b>, <b>extendibility</b>, and <b>maintainability</b>.<br><br>
-        
+        Over the years, I've developed a code style that is based on 3 pillars: <b>readability</b>, <b>extendibility</b>, and <b>maintainability</b>. 
+        I borrow a lot of ideas from Robert C. Martin (Uncle Bobby), who is often credited as the grandfather of software architecture principles such as SOLID and Clean Code.<br><br>
+
         I approach programming with a <b>growth mindset</b>, similar to how I approach other parts of life. By adopting this mindset, 
-        I have become a <b>reliable</b> asset on teams, and found it easier to <b>maintain</b>, <b>debug</b>, and <b>add new features to large projects</b>.<br><br>
+        I have become a <b>reliable and invaluable</b> asset on teams, and found it easier to <b>maintain</b>, <b>debug</b>, and <b>add new features to large projects</b>.<br><br>
       </div><br>
 
       <div>

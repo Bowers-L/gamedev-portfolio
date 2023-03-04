@@ -22,9 +22,21 @@ const routes: Array<RouteConfig> = [
   },
 
   {
+    path: '/game-jams',
+    name: 'Game jams',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameJams.vue')
+  },
+
+  {
     path: '/game-projects',
     name: 'Game Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
+  },
+
+  {
+    path: '/engineless',
+    name: 'Engineless',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Engineless.vue')
   },
   
   {

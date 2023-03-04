@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("doggy-disk", "Doggy Disk", "img/projects/DoggyDisk-icon.webp", `
+export default new ProjectData("doggy-disk", "Doggy Disk: VGDev Jam 2021", "img/projects/DoggyDisk-icon.webp", `
 <div class="paragraph">
     <strong>Doggy Disk</strong> was developed in 48 hours as part of the Georgia Tech VGDev Summer Game Jam with the theme "All Around You".
 </div>
@@ -10,7 +10,7 @@ export default new ProjectData("doggy-disk", "Doggy Disk", "img/projects/DoggyDi
 <li>Engine: Unity/C#</li>
 <li>Team Size: 5</li>
 <li>Contribution: Tower Design, Programming, and Visual Effects</li>
-<li>Timeframe: Summer 2021</li>
+<li>Timeframe: July 2021, 48 hours</li>
 </ul>
 </div>
 
