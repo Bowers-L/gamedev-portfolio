@@ -20,7 +20,7 @@ Project Info:
 </div>
 
 <div class="notice">
-No demo for the game is currently available since it is in ongoing development. A playable demo will be available at the start of December 2022.
+Play a Demo of the game here: <a href=https://drive.google.com/drive/u/0/folders/1LXZSTCk6FtoOHlNmT2b0CPPvX6QOnHRe></a>
 </div>
 
 <div class = "paragraph">
