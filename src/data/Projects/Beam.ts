@@ -2,6 +2,11 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default new ProjectData("beam", "A project I led: Beam", "img/projects/Beam-start.png", 
 `
+<div class="notice">
+<strong>Beam</strong> is a 3D first person puzzle game led by <a href="bowers-l.github.io">me</a> and developed in Fall 2021 by the Georgia Tech VGDev club.<br>
+<a href=https://l-cpp.itch.io/beam target="_blank">Play the game here!</a>
+</div>
+
 <div class="paragraph center">
     <iframe class="youtube" src="https://www.youtube.com/embed/Mg_dVNZKB9U?autoplay=1" frameborder="0" allowfullscreen></iframe>
 </div>
@@ -18,12 +23,9 @@ Project Info:
 </ul>
 </div>
 
-<div class="notice">
-Play the game <a href=https://l-cpp.itch.io/beam target="_blank">here!</a>
-</div>
 
 <div class="paragraph">
- <strong>Beam</strong> is a 3D first person puzzle game led by <a href="bowers-l.github.io">me</a> and developed in Fall 2021 by the Georgia Tech VGDev club. I came up with the initial design and prototype, pitched the game to 
+I came up with the initial design and prototype, pitched the game to 
  the club, and was the project lead during development.<br><br>
  
  This was my first time leading a team for a game and really tested my leadership and production skills, putting me in a position that (at the time) I was not used to. Since then I have

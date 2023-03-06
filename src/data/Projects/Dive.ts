@@ -1,6 +1,6 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("dive", "A Project I'm Leading: Dive", "img/projects/Dive-logo.PNG", 
+export default new ProjectData("dive", "A Project I'm Co-Leading: Dive", "img/projects/Dive-logo.PNG", 
 `
 <div>
 Coming Soon ...
@@ -12,5 +12,7 @@ Coming Soon ...
 <li>Timeframe: Spring 2023</li>
 </ul>
 </div>
+
+
 `
 , "#23bd69")

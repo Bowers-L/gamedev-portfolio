@@ -7,7 +7,8 @@
         <h2 style="text-align: center">I am a Game Developer, Graphics Programmer, and Software Engineer.</h2>
 
         <h3 style = "text-align: center">
-          I have touched nearly every technical aspect of game programming, including:</h3>
+          I specialize in graphics/engine programming, <br>
+          but I've also touched nearly every technical aspect of making games, including:</h3>
          <h3 style="text-align: center"><b>Graphics, Gameplay, Design Tools, Engines, Animation, Tech Art, AI, and Audio.</b></h3>
         <br>
         <h1 style="text-align: center">Featured Projects</h1>

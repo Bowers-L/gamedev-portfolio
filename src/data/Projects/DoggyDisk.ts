@@ -2,7 +2,9 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default new ProjectData("doggy-disk", "Doggy Disk: VGDev Jam 2021", "img/projects/DoggyDisk-icon.webp", `
 <div class="paragraph">
-    <strong>Doggy Disk</strong> was developed in 48 hours as part of the Georgia Tech VGDev Summer Game Jam with the theme "All Around You".
+    <div class="notice">
+    Doggy Disk is available to play on <a href="https://abnormal202.itch.io/doggy-disk" target="_blank">itch.io</a>.
+    </div>
 </div>
 
 <ul>
@@ -12,6 +14,15 @@ export default new ProjectData("doggy-disk", "Doggy Disk: VGDev Jam 2021", "img/
 <li>Contribution: Tower Design, Programming, and Visual Effects</li>
 <li>Timeframe: July 2021, 48 hours</li>
 </ul>
+</div>
+
+<div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/DoggyDisk/doggydisk2.webp" alt="Doggy Disk Gameplay" />
+    <img class="pc-screenshot" src="img/projects/DoggyDisk/doggydisk3.webp" alt="Doggy Disk Gameplay" />
+</div>
+
+<div class="paragraph">
+    <strong>Doggy Disk</strong> was developed in 48 hours as part of the Georgia Tech VGDev Summer Game Jam with the theme "All Around You".
 </div>
 
 <div class="paragraph">
@@ -26,13 +37,4 @@ export default new ProjectData("doggy-disk", "Doggy Disk: VGDev Jam 2021", "img/
     in syncing the VFX with the programmed area of effect.
 </div>
 
-<div class="paragraph">
-    <div class="notice">
-    Doggy Disk is available to play on <a href="https://abnormal202.itch.io/doggy-disk" target="_blank">itch.io</a>.
-    </div>
-</div>
-
-<div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/DoggyDisk/doggydisk2.webp" alt="Doggy Disk Gameplay" />
-    <img class="pc-screenshot" src="img/projects/DoggyDisk/doggydisk3.webp" alt="Doggy Disk Gameplay" />
-</div>`, "#e48246")
+`, "#e48246")

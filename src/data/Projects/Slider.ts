@@ -1,7 +1,13 @@
 import ProjectData from '@/data/ProjectData.ts'
 
-export default new ProjectData("slider", "Favorite Project: Slider", "img/projects/Slider-main.png", 
+export default new ProjectData("slider", "GDC 2023 IGF Finalist: Slider", "img/projects/Slider-main.png", 
 `
+<div class="notice">
+<strong>Slider</strong> is a game led by 
+<a href="https://randomerz.com" target="_blank">Daniel Carr</a> 
+and getting released 
+<a href="https://store.steampowered.com/app/1916890/Slider/" target="_blank">On Steam</a> (eventually).<br>
+</div>
 
 <div class="paragraph center">
     <iframe class="youtube" src="https://www.youtube.com/embed/dihp4vlx4gA?autoplay=1" frameborder="0" allowfullscreen></iframe>
@@ -19,15 +25,8 @@ Project Info:
 </ul>
 </div>
 
-<div class="notice">
-This game is available <a href=https://store.steampowered.com/app/1916890/Slider/ target="_blank"><b>On Steam</b></a><br>
-</div>
-
 <div class="paragraph">
- <strong>Slider</strong> is a game led by 
- <a href="https://randomerz.com" target="_blank">Daniel Carr</a> 
- and getting released 
- <a href="https://store.steampowered.com/app/1916890/Slider/" target="_blank">On Steam</a> (eventually).<br><br>
+<br><br>
 
  Slider is by far the most high profile game project I've worked on (as of Spring 2023), 
  having been demoed at multiple local and GT events, including <b>Dreamhack Atlanta 2022</b>, and being recently selected as an <b>IGF finalist</b> for best student game <b>@ GDC 2023</b>.<br><br>
