@@ -38,15 +38,23 @@
 
         <h3>I 🧡 Music</h3>
         <div>
-          I played <b>Piano through all of grade school (that's 12 years!)</b>, as well as <b>Trumpet for 8 years</b>. I really enjoy playing classical pieces on the Piano, as well as improvising my own melodies. I also did marching band and concert band throughout High School as a trumpet player, and was a part of the 
-          <b>Georgia Tech Marching Band</b> during <b>Fall 2019</b>, which was an exhilerating experience.<br><br>
+          I've played classical piano for most of my life, and have performed a variety of repotoire such as Chopin's Ballade in G minor, Chopin's Etudes, Listz's Hungarian Rhapsody 2, and much more.<br><br>
+
+          I also play Trumpet, having played in the marching band and concert band throughout High School, being selected multiple times for the Georgia All-State Bands, 
+          and being a part of the <b>Georgia Tech Marching Band</b> during <b>Fall 2019</b>, which was an exhilerating experience.<br><br>
           
-          I also enjoy <b>composing music</b>. I have worked on music for multiple VGDev games such as:
+          Besides performing, I immensely enjoy <b>composing music</b>, especially for games. 
+          My favorite music to compose is upbeat tracks such as those found in the
+          <a href="https://www.youtube.com/playlist?list=PLACuYJ-UwIOyVxgzB-KF7_7Z1hMkPtFK1">Touhou OST</a>. 
+          I have worked on music for multiple VGDev games such as:
           <ul>
             <li><b>Willow</b> by <a href=https://reverienest.github.io/reverienest/>Yoon Lee</a><br>
             <li><b>Light Disk VR</b> by <a href=https://www.linkedin.com/in/mromanenko/>Mikhail Romanenko</a></li>
             <li><b>Melody Star</b> by <a href=https://www.linkedin.com/in/alice-moh-1b4799163/>Alice Moh</a></li>
           </ul>
+
+          I really enjoy any opportunity I get to perform, compose, listen, or interact with music.
+          The power of music to bring people together is unmatched.
         </div>
 
         <h3>I ❤️ Gaming</h3>
@@ -65,15 +73,15 @@
         </ul>
         </div>
 
+        <!--
         <h3>I 💛 Sports</h3>
         <div>While I am not terribly dilligent about following sports teams, I do enjoy watching/playing some sports from time to time. I especially enjoy Tennis, Ping-Pong, Racquetball, and any other sport that involves bouncing balls back and forth.</div>
-
-        <!--
-        <h3>I 💚 People</h3>
-        <div>I like seeing where other people come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We are all the main characters of our own stories, but sometimes letting yourself
-        be the side character can be both humbling and rewarding.
-        </div>
         -->
+
+        <h3>I 💚 People</h3>
+        <div>I like seeing where other people come from, where they are in their life, and how I can contribute in a meaningful way to their journey. We all want to be the main characters of our own stories, but learning from other people
+        can be both humbling and rewarding.
+        </div>
       </div><br>
     </div>
 
