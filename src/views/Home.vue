@@ -4,17 +4,22 @@
     <div style="margin-bottom: 30px">
         <h1 style="text-align: center">Greetings!</h1> 
         <h2 style="text-align: center">My name is <b>Logan Bowers</b>.</h2>
-        <h2 style="text-align: center">I am a Game Developer, Graphics Programmer, and Software Engineer.</h2>
+        <h2 style="text-align: center">I am a Software Engineer, Game Developer, and Graphics/Game Engine Programmer</h2>
+    </div>
 
-        <h3 style = "text-align: center">
-          I specialize in graphics/engine programming, <br>
-          but I've also touched nearly every technical aspect of making games, including:</h3>
-         <h3 style="text-align: center"><b>Graphics, Gameplay, Design Tools, Engines, Animation, Tech Art, AI, and Audio.</b></h3>
-        <br>
-        <h1 style="text-align: center">Featured Projects</h1>
+    <div>
+      <h3 style="text-align: center">I've cultivated experience and passion in game development through 
+      4 month game project development cycles centered around college semesters broken up into 3 week milestone sprints.
+      </h3>
+
+      <h3 style="text-align: center">
+      Professionally, I tend to gravitate towards roles that require a deep understanding of complex systems or algorithms,
+      as well as improving code architecture. Typically in game dev, these are graphics/core engine positions.
+      </h3>
     </div>
 
     <div class="project-list">
+        <h1 style="text-align: center">Featured Projects</h1>
         <ProjectsList v-bind:projects="projects"/>
     </div>
 
@@ -23,8 +28,8 @@
         as well as <router-link to="/engineless">Game Engine and Graphics Projects</router-link></b></h2>
     </div>
 
-    <h3 style="text-align: center"><b>"Let your ambition be unmatched, and your passion relentless, <br>
-    but let your actions be calm and precise."</b></h3>
+    <h3 style="text-align: center"><b>"Let your ambition be unmatched, <br>
+    but let your demeanor be calm and precise."</b></h3>
 
   </div>
 </template>
